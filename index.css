@@ -1,0 +1,58 @@
+/* Principal color and font */
+body {
+    background-color: #000080; /* bluenavy */
+    font-family: 'Garamond', serif;
+    color: #ffffff; /* white for text contrast */
+    margin: 0;
+    padding: 0;
+}
+
+/* Professional and modern style */
+header, nav, main, footer {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #ffffff; /* white background for sections */
+    color: #000080; /* bluenavy text */
+}
+
+header {
+    background-color: #1a1a1a; /* dark background for header */
+    color: #ffffff; /* white text for header */
+}
+
+nav a {
+    color: #000080; /* bluenavy links */
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #000080; /* bluenavy background on hover */
+    color: #ffffff; /* white text on hover */
+}
+
+main {
+    background-color: #f0f0f0; /* light grey background for main content */
+}
+
+footer {
+    background-color: #1a1a1a; /* dark background for footer */
+    color: #ffffff; /* white text for footer */
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    background-color: #000080; /* bluenavy buttons */
+    color: #ffffff; /* white text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1a1a1a; /* dark background on hover */
+}
