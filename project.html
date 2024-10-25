@@ -63,6 +63,14 @@
         </div>
     </section>
 
+
+    <script>
+        let figure_1_spec = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure_2_spec = "chartLine3.json";                                                                                                            // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
+
+        vegaEmbed('#Location1', figure_1_spec) 
+        vegaEmbed('#Location2', figure_2_spec) 
+    </script>
 </body>
     
 </html>
