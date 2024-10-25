@@ -30,7 +30,7 @@
       "type": "quantitative",
       "axis": {
         "title": "GDP Growth rate (%)",
-        "titleColor": "#122B39"
+        "titleColor": "#122B39",
         "grid": false
       }
     }
