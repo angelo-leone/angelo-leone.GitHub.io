@@ -111,6 +111,37 @@
         <figure id="Location6"></figure>
     </section>
 
+    <h2 class="small"> 
+        Week 4: Replication and improvement of someone else's work
+    </h2>
+    <section>
+        <div class="text">
+            <h3> Image of the chart (DESCRIPTION) </h3>
+            <p> 
+                Description of the chart
+            </p>
+        </div>
+    </section>
+    <section>
+        <div class="chart-description">
+            <h3>Section 7: Replication.</h3>
+            <p> 
+                Chart replication
+            </p>
+        </div>
+        <figure id="Location7"></figure>
+    </section>
+    <section>
+        <div class="chart-description">
+            <h3>Section 8: Improvement. </h3>
+            <p> 
+                How did I improve it? Explain briefly (not more than 25 words) what you have done.
+            </p>
+        </div>
+        <figure id="Location8"></figure>
+    </section>
+
+
     <script>
 
         let figure_1_spec = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json"; // We're storing the URL of the graph we want to display in a variable
@@ -119,12 +150,11 @@
         let figure_4_spec = "portfolioassignment2_chart2.json";
         let figure_5_spec = "portfolioassignment3_chart1.json"; 
 
-        vegaEmbed('#Location1', figure_1_spec) 
-        vegaEmbed('#Location2', figure_2_spec) 
-        vegaEmbed('#Location3', figure_3_spec)  
-        vegaEmbed('#Location4', figure_4_spec)
-        vegaEmbed('#Location5', figure_5_spec)
-
+        vegaEmbed('#Location1', figure_1_spec).catch(console.error);
+        vegaEmbed('#Location2', figure_2_spec).catch(console.error);
+        vegaEmbed('#Location3', figure_3_spec).catch(console.error);
+        vegaEmbed('#Location4', figure_4_spec).catch(console.error);
+        vegaEmbed('#Location5', figure_5_spec).catch(console.error);
     </script>
 
 </body>
