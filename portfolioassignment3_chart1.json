@@ -21,7 +21,7 @@
     "strokeOpacity": 0
   },
   "data": {
-    "url": "https://api.economicsobservatory.com/gbr/prod",
+    "url": "https://api.economicsobservatory.com/gbr/prod?vega",
     "format": {"type": "json"}
   },
   "mark": {
