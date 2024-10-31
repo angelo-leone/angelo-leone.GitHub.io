@@ -103,7 +103,7 @@
     </section>
     <section>
         <div class="chart-description">
-            <h3>Section 6: OECD productivity growth. https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalDMZ&df[id]=DSD_PDB%40DF_PDB_GR&df[ag]=OECD.SDD.TPS&df[vs]=1.0&dq=DNK%2BDEU%2BUSA%2BOECD%2BEU27_2020%2BFRA.A.GDPHRS..PA.Q.GY..&lom=LASTNPERIODS&lo=55&to[TIME_PERIOD]=false&ly[cl]=TIME_PERIOD&ly[rw]=REF_AREA&vw=tl</h3>
+            <h3>Section 6: Selected OECD countries productivity growth. </h3>
             <p> 
                 Comment (not more than 25 words) on what you find. Your commentary should be placed near the chart in a way that makes it intuitive to your site’s users (i.e., above, below, or to the side). 
             </p>
@@ -149,12 +149,15 @@
         let figure_3_spec = "portfolioassignment2_chart1.json";
         let figure_4_spec = "portfolioassignment2_chart2.json";
         let figure_5_spec = "portfolioassignment3_chart1.json"; 
+        let figure_6_spec = "portfolioassignment3_chart2.json"; 
+
 
         vegaEmbed('#Location1', figure_1_spec).catch(console.error);
         vegaEmbed('#Location2', figure_2_spec).catch(console.error);
         vegaEmbed('#Location3', figure_3_spec).catch(console.error);
         vegaEmbed('#Location4', figure_4_spec).catch(console.error);
         vegaEmbed('#Location5', figure_5_spec).catch(console.error);
+        vegaEmbed('#Location6', figure_6_spec).catch(console.error);
     </script>
 
 </body>
