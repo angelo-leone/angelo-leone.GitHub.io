@@ -1,0 +1,40 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Productivity Growth (GDP per Hour Worked) by Country",
+    "anchor": "start",
+    "subtitle": "Time period vs. GDP per hour worked index | Source: OECD",
+    "fontSize": 14,
+    "subtitleFontSize": 12,
+    "color": "#000000",
+    "subtitleColor": "#666666"
+  },
+  "height": 400,
+  "width": "container",
+  "data": {
+    "url": "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/portfolioassignment3data1.csv",
+    "format": {"type": "csv"}
+  },
+  "mark": {"type": "line", "strokeWidth": 2},
+  "encoding": {
+    "x": {"field": "TIME_PERIOD", "type": "temporal", "title": "Year"},
+    "y": {
+      "field": "OBS_VALUE",
+      "type": "quantitative",
+      "title": "GDP per Hour Worked (Index)",
+      "scale": {"domain": [70, 120]}
+    },
+    "color": {
+      "field": "REF_AREA",
+      "type": "nominal",
+      "title": "Country",
+      "legend": {"orient": "right"}
+    },
+    "tooltip": [
+      {"field": "REF_AREA", "title": "Country"},
+      {"field": "TIME_PERIOD", "title": "Year"},
+      {"field": "OBS_VALUE", "title": "GDP per Hour Worked"}
+    ]
+  },
+  "config": {}
+}
