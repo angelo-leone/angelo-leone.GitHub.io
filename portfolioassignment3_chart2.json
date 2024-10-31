@@ -35,6 +35,5 @@
       {"field": "TIME_PERIOD", "title": "Year"},
       {"field": "OBS_VALUE", "title": "GDP per Hour Worked"}
     ]
-  },
-  "config": {}
+  }
 }
