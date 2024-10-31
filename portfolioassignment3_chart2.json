@@ -12,7 +12,7 @@
   "height": 400,
   "width": "container",
   "data": {
-    "url": "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/portfolioassignment3data1.csv",
+    "url": "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/portfolioassignment3_data1.csv",
     "format": {"type": "csv"}
   },
   "mark": {"type": "line", "strokeWidth": 2},
