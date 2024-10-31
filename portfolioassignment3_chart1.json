@@ -22,7 +22,7 @@
   },
   "data": {
     "url": "https://api.economicsobservatory.com/gbr/prod",
-    "format": {"type": "json", "property": "data"}
+    "format": {"type": "json"}
   },
   "mark": {
     "type": "line",
