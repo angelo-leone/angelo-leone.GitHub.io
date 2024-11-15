@@ -1,41 +1,41 @@
 FY;Measure;Outturn;10th Percentile;20th Percentile;30th Percentile;40th Percentile;50th Percentile;60th Percentile;70th Percentile;80th Percentile;90th Percentile
-2010-11;Current budget deficit;6.2;;;;;;;;;
-2011-12;Current budget deficit;5.4;;;;;;;;;
-2012-13;Current budget deficit;5.3;;;;;;;;;
-2013-14;Current budget deficit;4.3;;;;;;;;;
-2014-15;Current budget deficit;3.3;;;;;;;;;
-2015-16;Current budget deficit;2.6;;;;;;;;;
-2016-17;Current budget deficit;1.1;;;;;;;;;
-2017-18;Current budget deficit;0.6;;;;;;;;;
+2010-11;Current budget deficit;6,2;;;;;;;;;
+2011-12;Current budget deficit;5,4;;;;;;;;;
+2012-13;Current budget deficit;5,3;;;;;;;;;
+2013-14;Current budget deficit;4,3;;;;;;;;;
+2014-15;Current budget deficit;3,3;;;;;;;;;
+2015-16;Current budget deficit;2,6;;;;;;;;;
+2016-17;Current budget deficit;1,1;;;;;;;;;
+2017-18;Current budget deficit;0,6;;;;;;;;;
 2018-19;Current budget deficit;0;;;;;;;;;
-2019-20;Current budget deficit;0.8;;;;;;;;;
-2020-21;Current budget deficit;11.6;;;;;;;;;
-2021-22;Current budget deficit;2.9;;;;;;;;;
+2019-20;Current budget deficit;0,8;;;;;;;;;
+2020-21;Current budget deficit;11,6;;;;;;;;;
+2021-22;Current budget deficit;2,9;;;;;;;;;
 2022-23;Current budget deficit;3;;;;;;;;;
-2023-24;Current budget deficit;1.9;;;;;;;;;
-2024-25;Current budget deficit;2;-0.6;0.3;0.9;1.5;2;2.4;3;3.5;4.4
-2025-26;Current budget deficit;0.9;-2.1;-1;-0.3;0.4;0.9;1.5;2.1;2.8;3.8
-2026-27;Current budget deficit;0.2;-3.3;-2;-1.1;-0.4;0.2;0.8;1.4;2.2;3.3
-2027-28;Current budget deficit;-0.3;-4.2;-2.7;-1.8;-1;-0.3;0.3;1;1.8;3
-2028-29;Current budget deficit;-0.3;-4.3;-2.7;-1.8;-1;-0.3;0.4;1.2;2.2;3.6
-2029-30;Current budget deficit;-0.3;-4.4;-2.9;-1.9;-1.1;-0.3;0.5;1.4;2.4;3.9
-2010-11;Public sector net liabilities;58.9;;;;;;;;;
+2023-24;Current budget deficit;1,9;;;;;;;;;
+2024-25;Current budget deficit;2;-0,6;0,3;0,9;1,5;2;2,4;3;3,5;4,4
+2025-26;Current budget deficit;0,9;-2,1;-1;-0,3;0,4;0,9;1,5;2,1;2,8;3,8
+2026-27;Current budget deficit;0,2;-3,3;-2;-1,1;-0,4;0,2;0,8;1,4;2,2;3,3
+2027-28;Current budget deficit;-0,3;-4,2;-2,7;-1,8;-1;-0,3;0,3;1;1,8;3
+2028-29;Current budget deficit;-0,3;-4,3;-2,7;-1,8;-1;-0,3;0,4;1,2;2,2;3,6
+2029-30;Current budget deficit;-0,3;-4,4;-2,9;-1,9;-1,1;-0,3;0,5;1,4;2,4;3,9
+2010-11;Public sector net liabilities;58,9;;;;;;;;;
 2011-12;Public sector net liabilities;65;;;;;;;;;
-2012-13;Public sector net liabilities;69.7;;;;;;;;;
-2013-14;Public sector net liabilities;70.7;;;;;;;;;
-2014-15;Public sector net liabilities;72.9;;;;;;;;;
+2012-13;Public sector net liabilities;69,7;;;;;;;;;
+2013-14;Public sector net liabilities;70,7;;;;;;;;;
+2014-15;Public sector net liabilities;72,9;;;;;;;;;
 2015-16;Public sector net liabilities;74;;;;;;;;;
-2016-17;Public sector net liabilities;74.2;;;;;;;;;
-2017-18;Public sector net liabilities;70.2;;;;;;;;;
+2016-17;Public sector net liabilities;74,2;;;;;;;;;
+2017-18;Public sector net liabilities;70,2;;;;;;;;;
 2018-19;Public sector net liabilities;67;;;;;;;;;
-2019-20;Public sector net liabilities;74.6;;;;;;;;;
-2020-21;Public sector net liabilities;83.1;;;;;;;;;
-2021-22;Public sector net liabilities;80.6;;;;;;;;;
-2022-23;Public sector net liabilities;81.3;;;;;;;;;
-2023-24;Public sector net liabilities;83.2;;;;;;;;;
-2024-25;Public sector net liabilities;83.5;79.1;80.7;81.8;82.7;83.5;84.3;85;85.7;86.4
-2025-26;Public sector net liabilities;83.8;74.7;77.9;80.2;82.1;83.8;85.4;87;88.8;91.2
-2026-27;Public sector net liabilities;84.2;70.1;74.9;78.3;81.4;84.2;87.1;90.3;94.1;99.3
-2027-28;Public sector net liabilities;84.1;71.6;75.3;78.3;81.2;84.1;87.2;90.8;95.1;101.3
-2028-29;Public sector net liabilities;83.9;73.2;75.7;78.3;81;83.9;87.1;90.9;95.6;102.6
-2029-30;Public sector net liabilities;83.4;73;75.4;77.9;80.5;83.4;86.6;90.4;95.2;102.3
+2019-20;Public sector net liabilities;74,6;;;;;;;;;
+2020-21;Public sector net liabilities;83,1;;;;;;;;;
+2021-22;Public sector net liabilities;80,6;;;;;;;;;
+2022-23;Public sector net liabilities;81,3;;;;;;;;;
+2023-24;Public sector net liabilities;83,2;;;;;;;;;
+2024-25;Public sector net liabilities;83,5;79,1;80,7;81,8;82,7;83,5;84,3;85;85,7;86,4
+2025-26;Public sector net liabilities;83,8;74,7;77,9;80,2;82,1;83,8;85,4;87;88,8;91,2
+2026-27;Public sector net liabilities;84,2;70,1;74,9;78,3;81,4;84,2;87,1;90,3;94,1;99,3
+2027-28;Public sector net liabilities;84,1;71,6;75,3;78,3;81,2;84,1;87,2;90,8;95,1;101,3
+2028-29;Public sector net liabilities;83,9;73,2;75,7;78,3;81;83,9;87,1;90,9;95,6;102,6
+2029-30;Public sector net liabilities;83,4;73;75,4;77,9;80,5;83,4;86,6;90,4;95,2;102,3
