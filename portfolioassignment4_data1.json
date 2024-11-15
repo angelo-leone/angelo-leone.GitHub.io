@@ -451,20 +451,6 @@
     "FY": "2022-23",
     "Measure": "Public sector net liabilities",
     "Outturn": 81.3,
-    "10th Percentile": 81.3,
-    "20th Percentile": 81.3,
-    "30th Percentile": 81.3,
-    "40th Percentile": 81.3,
-    "50th Percentile": 81.3,
-    "60th Percentile": 81.3,
-    "70th Percentile": 81.3,
-    "80th Percentile": 81.3,
-    "90th Percentile": 81.3
-  },
-  {
-    "FY": "2023-24",
-    "Measure": "Public sector net liabilities",
-    "Outturn": 83.2,
     "10th Percentile": "",
     "20th Percentile": "",
     "30th Percentile": "",
@@ -474,6 +460,20 @@
     "70th Percentile": "",
     "80th Percentile": "",
     "90th Percentile": ""
+  },
+  {
+    "FY": "2023-24",
+    "Measure": "Public sector net liabilities",
+    "Outturn": 83.2,
+    "10th Percentile": 83.2,
+    "20th Percentile": 83.2,
+    "30th Percentile": 83.2,
+    "40th Percentile": 83.2,
+    "50th Percentile": 83.2,
+    "60th Percentile": 83.2,
+    "70th Percentile": 83.2,
+    "80th Percentile": 83.2,
+    "90th Percentile": 83.2
   },
   {
     "FY": "2024-25",
