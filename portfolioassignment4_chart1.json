@@ -1,0 +1,84 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "The OBR expects the chancellor to meet her fiscal targets",
+    "subtitle": "Percentage of GDP",
+    "anchor": "start",
+    "align": "left",
+    "fontSize": 14,
+    "subtitleFontSize": 12
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/portfolioassignment4_data1.json",
+    "format": {"type": "json"}
+  },
+  "transform": [
+    {
+      "filter": "datum.Measure == 'Current budget deficit' || datum.Measure == 'Public sector net liabilities'"
+    }
+  ],
+  "facet": {
+    "column": {
+      "field": "Measure",
+      "type": "nominal",
+      "title": null,
+      "header": {"labelAngle": 0, "labelAlign": "center"}
+    }
+  },
+  "spec": {
+    "width": 300,
+    "height": 200,
+    "layer": [
+      {
+        "mark": {"type": "line", "color": "#E15759"},
+        "encoding": {
+          "x": {"field": "FY", "type": "ordinal", "title": ""},
+          "y": {
+            "field": "Outturn",
+            "type": "quantitative",
+            "title": "Percentage of GDP"
+          },
+          "tooltip": [
+            {"field": "FY"},
+            {"field": "Outturn"},
+            {"field": "Measure"}
+          ]
+        }
+      },
+      {
+        "mark": {"type": "area", "color": "#9BBFCD", "opacity": 0.3},
+        "encoding": {
+          "x": {"field": "FY", "type": "ordinal"},
+          "y": {"field": "10th Percentile", "type": "quantitative"},
+          "y2": {"field": "90th Percentile"}
+        }
+      },
+      {
+        "mark": {"type": "area", "color": "#4E79A7", "opacity": 0.5},
+        "encoding": {
+          "x": {"field": "FY", "type": "ordinal"},
+          "y": {"field": "20th Percentile", "type": "quantitative"},
+          "y2": {"field": "80th Percentile"}
+        }
+      },
+      {
+        "mark": {"type": "area", "color": "#1F77B4", "opacity": 0.7},
+        "encoding": {
+          "x": {"field": "FY", "type": "ordinal"},
+          "y": {"field": "30th Percentile", "type": "quantitative"},
+          "y2": {"field": "70th Percentile"}
+        }
+      },
+      {
+        "mark": {"type": "area", "color": "#1A5276", "opacity": 0.9},
+        "encoding": {
+          "x": {"field": "FY", "type": "ordinal"},
+          "y": {"field": "40th Percentile", "type": "quantitative"},
+          "y2": {"field": "60th Percentile"}
+        }
+      }
+    ]
+  },
+  "resolve": {"scale": {"y": "independent"}},
+  "config": {"axis": {"labelFontSize": 12, "titleFontSize": 12, "grid": false}}
+}
