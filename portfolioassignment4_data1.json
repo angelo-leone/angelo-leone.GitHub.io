@@ -1,6 +1,6 @@
 [
   {
-    "FY": "2010-11",
+    "FY": "2011",
     "Measure": "Current budget deficit",
     "Outturn": 6.2,
     "10th Percentile": "",
@@ -11,10 +11,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": null
   },
   {
-    "FY": "2011-12",
+    "FY": "2012",
     "Measure": "Current budget deficit",
     "Outturn": 5.4,
     "10th Percentile": "",
@@ -25,10 +26,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 2.9
   },
   {
-    "FY": "2012-13",
+    "FY": "2013",
     "Measure": "Current budget deficit",
     "Outturn": 5.3,
     "10th Percentile": "",
@@ -39,10 +41,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 2.9
   },
   {
-    "FY": "2013-14",
+    "FY": "2014",
     "Measure": "Current budget deficit",
     "Outturn": 4.3,
     "10th Percentile": "",
@@ -53,10 +56,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 3
   },
   {
-    "FY": "2014-15",
+    "FY": "2015",
     "Measure": "Current budget deficit",
     "Outturn": 3.3,
     "10th Percentile": "",
@@ -67,10 +71,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 2.6
   },
   {
-    "FY": "2015-16",
+    "FY": "2016",
     "Measure": "Current budget deficit",
     "Outturn": 2.6,
     "10th Percentile": "",
@@ -81,10 +86,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 2.4
   },
   {
-    "FY": "2016-17",
+    "FY": "2017",
     "Measure": "Current budget deficit",
     "Outturn": 1.1,
     "10th Percentile": "",
@@ -95,10 +101,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 2.4
   },
   {
-    "FY": "2017-18",
+    "FY": "2018",
     "Measure": "Current budget deficit",
     "Outturn": 0.6,
     "10th Percentile": "",
@@ -109,10 +116,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 2.2
   },
   {
-    "FY": "2018-19",
+    "FY": "2019",
     "Measure": "Current budget deficit",
     "Outturn": 0,
     "10th Percentile": "",
@@ -123,10 +131,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 1.5
   },
   {
-    "FY": "2019-20",
+    "FY": "2020",
     "Measure": "Current budget deficit",
     "Outturn": 0.8,
     "10th Percentile": "",
@@ -137,10 +146,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 9.4
   },
   {
-    "FY": "2020-21",
+    "FY": "2021",
     "Measure": "Current budget deficit",
     "Outturn": 11.6,
     "10th Percentile": "",
@@ -151,10 +161,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 8.7
   },
   {
-    "FY": "2021-22",
+    "FY": "2022",
     "Measure": "Current budget deficit",
     "Outturn": 2.9,
     "10th Percentile": "",
@@ -165,10 +176,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 8.1
   },
   {
-    "FY": "2022-23",
+    "FY": "2023",
     "Measure": "Current budget deficit",
     "Outturn": 3,
     "10th Percentile": "",
@@ -179,10 +191,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 7.2
   },
   {
-    "FY": "2023-24",
+    "FY": "2024",
     "Measure": "Current budget deficit",
     "Outturn": 1.9,
     "10th Percentile": 1.9,
@@ -193,10 +206,11 @@
     "60th Percentile": 1.9,
     "70th Percentile": 1.9,
     "80th Percentile": 1.9,
-    "90th Percentile": 1.9
+    "90th Percentile": 1.9,
+    "Italy": 3.8
   },
   {
-    "FY": "2024-25",
+    "FY": "2025",
     "Measure": "Current budget deficit",
     "Outturn": 2,
     "10th Percentile": -0.6,
@@ -207,10 +221,11 @@
     "60th Percentile": 2.4,
     "70th Percentile": 3,
     "80th Percentile": 3.5,
-    "90th Percentile": 4.4
+    "90th Percentile": 4.4,
+    "Italy": 3.6
   },
   {
-    "FY": "2025-26",
+    "FY": "2026",
     "Measure": "Current budget deficit",
     "Outturn": 0.9,
     "10th Percentile": -2.1,
@@ -221,10 +236,11 @@
     "60th Percentile": 1.5,
     "70th Percentile": 2.1,
     "80th Percentile": 2.8,
-    "90th Percentile": 3.8
+    "90th Percentile": 3.8,
+    "Italy": 3.7
   },
   {
-    "FY": "2026-27",
+    "FY": "2027",
     "Measure": "Current budget deficit",
     "Outturn": 0.2,
     "10th Percentile": -3.3,
@@ -235,10 +251,11 @@
     "60th Percentile": 0.8,
     "70th Percentile": 1.4,
     "80th Percentile": 2.2,
-    "90th Percentile": 3.3
+    "90th Percentile": 3.3,
+    "Italy": 3.5
   },
   {
-    "FY": "2027-28",
+    "FY": "2028",
     "Measure": "Current budget deficit",
     "Outturn": -0.3,
     "10th Percentile": -4.2,
@@ -249,10 +266,11 @@
     "60th Percentile": 0.3,
     "70th Percentile": 1,
     "80th Percentile": 1.8,
-    "90th Percentile": 3
+    "90th Percentile": 3,
+    "Italy": 3.2
   },
   {
-    "FY": "2028-29",
+    "FY": "2029",
     "Measure": "Current budget deficit",
     "Outturn": -0.3,
     "10th Percentile": -4.3,
@@ -263,10 +281,11 @@
     "60th Percentile": 0.4,
     "70th Percentile": 1.2,
     "80th Percentile": 2.2,
-    "90th Percentile": 3.6
+    "90th Percentile": 3.6,
+    "Italy": 2.9
   },
   {
-    "FY": "2029-30",
+    "FY": "2030",
     "Measure": "Current budget deficit",
     "Outturn": -0.3,
     "10th Percentile": -4.4,
@@ -277,10 +296,11 @@
     "60th Percentile": 0.5,
     "70th Percentile": 1.4,
     "80th Percentile": 2.4,
-    "90th Percentile": 3.9
+    "90th Percentile": 3.9,
+    "Italy": 2.5
   },
   {
-    "FY": "2010-11",
+    "FY": "2011",
     "Measure": "Public sector net liabilities",
     "Outturn": 58.9,
     "10th Percentile": "",
@@ -291,10 +311,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": null
   },
   {
-    "FY": "2011-12",
+    "FY": "2012",
     "Measure": "Public sector net liabilities",
     "Outturn": 65,
     "10th Percentile": "",
@@ -305,10 +326,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 126.5
   },
   {
-    "FY": "2012-13",
+    "FY": "2013",
     "Measure": "Public sector net liabilities",
     "Outturn": 69.7,
     "10th Percentile": "",
@@ -319,10 +341,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 132.5
   },
   {
-    "FY": "2013-14",
+    "FY": "2014",
     "Measure": "Public sector net liabilities",
     "Outturn": 70.7,
     "10th Percentile": "",
@@ -333,10 +356,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 135.4
   },
   {
-    "FY": "2014-15",
+    "FY": "2015",
     "Measure": "Public sector net liabilities",
     "Outturn": 72.9,
     "10th Percentile": "",
@@ -347,10 +371,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 135.3
   },
   {
-    "FY": "2015-16",
+    "FY": "2016",
     "Measure": "Public sector net liabilities",
     "Outturn": 74,
     "10th Percentile": "",
@@ -361,10 +386,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 134.8
   },
   {
-    "FY": "2016-17",
+    "FY": "2017",
     "Measure": "Public sector net liabilities",
     "Outturn": 74.2,
     "10th Percentile": "",
@@ -375,10 +401,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 134.2
   },
   {
-    "FY": "2017-18",
+    "FY": "2018",
     "Measure": "Public sector net liabilities",
     "Outturn": 70.2,
     "10th Percentile": "",
@@ -389,10 +416,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 134.5
   },
   {
-    "FY": "2018-19",
+    "FY": "2019",
     "Measure": "Public sector net liabilities",
     "Outturn": 67,
     "10th Percentile": "",
@@ -403,10 +431,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 134.2
   },
   {
-    "FY": "2019-20",
+    "FY": "2020",
     "Measure": "Public sector net liabilities",
     "Outturn": 74.6,
     "10th Percentile": "",
@@ -417,10 +446,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 154.9
   },
   {
-    "FY": "2020-21",
+    "FY": "2021",
     "Measure": "Public sector net liabilities",
     "Outturn": 83.1,
     "10th Percentile": "",
@@ -431,10 +461,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 147.1
   },
   {
-    "FY": "2021-22",
+    "FY": "2022",
     "Measure": "Public sector net liabilities",
     "Outturn": 80.6,
     "10th Percentile": "",
@@ -445,10 +476,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 138.1
   },
   {
-    "FY": "2022-23",
+    "FY": "2023",
     "Measure": "Public sector net liabilities",
     "Outturn": 81.3,
     "10th Percentile": "",
@@ -459,10 +491,11 @@
     "60th Percentile": "",
     "70th Percentile": "",
     "80th Percentile": "",
-    "90th Percentile": ""
+    "90th Percentile": "",
+    "Italy": 134.6
   },
   {
-    "FY": "2023-24",
+    "FY": "2024",
     "Measure": "Public sector net liabilities",
     "Outturn": 83.2,
     "10th Percentile": 83.2,
@@ -473,10 +506,11 @@
     "60th Percentile": 83.2,
     "70th Percentile": 83.2,
     "80th Percentile": 83.2,
-    "90th Percentile": 83.2
+    "90th Percentile": 83.2,
+    "Italy": 135.8
   },
   {
-    "FY": "2024-25",
+    "FY": "2025",
     "Measure": "Public sector net liabilities",
     "Outturn": 83.5,
     "10th Percentile": 79.1,
@@ -487,10 +521,11 @@
     "60th Percentile": 84.3,
     "70th Percentile": 85,
     "80th Percentile": 85.7,
-    "90th Percentile": 86.4
+    "90th Percentile": 86.4,
+    "Italy": 137.7
   },
   {
-    "FY": "2025-26",
+    "FY": "2026",
     "Measure": "Public sector net liabilities",
     "Outturn": 83.8,
     "10th Percentile": 74.7,
@@ -501,10 +536,11 @@
     "60th Percentile": 85.4,
     "70th Percentile": 87,
     "80th Percentile": 88.8,
-    "90th Percentile": 91.2
+    "90th Percentile": 91.2,
+    "Italy": 137.7
   },
   {
-    "FY": "2026-27",
+    "FY": "2027",
     "Measure": "Public sector net liabilities",
     "Outturn": 84.2,
     "10th Percentile": 70.1,
@@ -515,10 +551,11 @@
     "60th Percentile": 87.1,
     "70th Percentile": 90.3,
     "80th Percentile": 94.1,
-    "90th Percentile": 99.3
+    "90th Percentile": 99.3,
+    "Italy": 137.5
   },
   {
-    "FY": "2027-28",
+    "FY": "2028",
     "Measure": "Public sector net liabilities",
     "Outturn": 84.1,
     "10th Percentile": 71.6,
@@ -529,10 +566,11 @@
     "60th Percentile": 87.2,
     "70th Percentile": 90.8,
     "80th Percentile": 95.1,
-    "90th Percentile": 101.3
+    "90th Percentile": 101.3,
+    "Italy": 137.1
   },
   {
-    "FY": "2028-29",
+    "FY": "2029",
     "Measure": "Public sector net liabilities",
     "Outturn": 83.9,
     "10th Percentile": 73.2,
@@ -543,10 +581,11 @@
     "60th Percentile": 87.1,
     "70th Percentile": 90.9,
     "80th Percentile": 95.6,
-    "90th Percentile": 102.6
+    "90th Percentile": 102.6,
+    "Italy": 136.4
   },
   {
-    "FY": "2029-30",
+    "FY": "2030",
     "Measure": "Public sector net liabilities",
     "Outturn": 83.4,
     "10th Percentile": 73,
@@ -557,6 +596,7 @@
     "60th Percentile": 86.6,
     "70th Percentile": 90.4,
     "80th Percentile": 95.2,
-    "90th Percentile": 102.3
+    "90th Percentile": 102.3,
+    "Italy": 135.3
   }
 ]
