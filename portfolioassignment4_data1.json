@@ -207,7 +207,7 @@
     "70th Percentile": 1.9,
     "80th Percentile": 1.9,
     "90th Percentile": 1.9,
-    "Italy": -0.5
+    "Italy": 3.8
   },
   {
     "FY": "2025",
@@ -222,7 +222,7 @@
     "70th Percentile": 3,
     "80th Percentile": 3.5,
     "90th Percentile": 4.4,
-    "Italy": 0
+    "Italy": 3.6
   },
   {
     "FY": "2026",
@@ -237,7 +237,7 @@
     "70th Percentile": 2.1,
     "80th Percentile": 2.8,
     "90th Percentile": 3.8,
-    "Italy": 0.5
+    "Italy": 3.7
   },
   {
     "FY": "2027",
@@ -252,7 +252,7 @@
     "70th Percentile": 1.4,
     "80th Percentile": 2.2,
     "90th Percentile": 3.3,
-    "Italy": 1
+    "Italy": 3.5
   },
   {
     "FY": "2028",
@@ -267,7 +267,7 @@
     "70th Percentile": 1,
     "80th Percentile": 1.8,
     "90th Percentile": 3,
-    "Italy": 1.7
+    "Italy": 3.2
   },
   {
     "FY": "2029",
@@ -282,7 +282,7 @@
     "70th Percentile": 1.2,
     "80th Percentile": 2.2,
     "90th Percentile": 3.6,
-    "Italy": 2.3
+    "Italy": 2.9
   },
   {
     "FY": "2030",
@@ -297,7 +297,7 @@
     "70th Percentile": 1.4,
     "80th Percentile": 2.4,
     "90th Percentile": 3.9,
-    "Italy": 2.8
+    "Italy": 2.5
   },
   {
     "FY": "2011",
