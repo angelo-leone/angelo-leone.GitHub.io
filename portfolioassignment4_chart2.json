@@ -1,0 +1,108 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "#fff1e5",
+  "title": {
+    "text": "Fiscal policy in the UK",
+    "subtitle": "The Office for Budget Responsibility expects the chancellor to meet her fiscal targets",
+    "anchor": "start",
+    "align": "left",
+    "fontSize": 14,
+    "subtitleFontSize": 12
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/portfolioassignment4_data1.json",
+    "format": {"type": "json"}
+  },
+  "transform": [
+    {
+      "filter": "datum.Measure == 'Current budget deficit' || datum.Measure == 'Public sector net liabilities'"
+    }
+  ],
+  "facet": {
+    "column": {
+      "field": "Measure",
+      "type": "nominal",
+      "title": null,
+      "header": {"labelAngle": 0, "labelAlign": "center"}
+    }
+  },
+  "spec": {
+    "width": 300,
+    "height": 200,
+    "layer": [
+      {
+        "mark": {"type": "area", "color": "#9BBFCD", "opacity": 0.3},
+        "encoding": {
+          "x": {"field": "FY", "type": "ordinal"},
+          "y": {"field": "10th Percentile", "type": "quantitative"},
+          "y2": {"field": "90th Percentile"}
+        }
+      },
+      {
+        "mark": {"type": "area", "color": "#4E79A7", "opacity": 0.5},
+        "encoding": {
+          "x": {"field": "FY", "type": "ordinal"},
+          "y": {"field": "20th Percentile", "type": "quantitative"},
+          "y2": {"field": "80th Percentile"}
+        }
+      },
+      {
+        "mark": {"type": "area", "color": "#1F77B4", "opacity": 0.7},
+        "encoding": {
+          "x": {"field": "FY", "type": "ordinal"},
+          "y": {"field": "30th Percentile", "type": "quantitative"},
+          "y2": {"field": "70th Percentile"}
+        }
+      },
+      {
+        "mark": {"type": "area", "color": "#1A5276", "opacity": 0.9},
+        "encoding": {
+          "x": {"field": "FY", "type": "ordinal"},
+          "y": {"field": "40th Percentile", "type": "quantitative"},
+          "y2": {"field": "60th Percentile"}
+        }
+      },
+      {
+        "mark": {"type": "line", "color": "#E15759"},
+        "encoding": {
+          "x": {"field": "FY", "type": "ordinal", "title": ""},
+          "y": {
+            "field": "Outturn",
+            "type": "quantitative",
+            "title": "Percentage of GDP"
+          },
+          "tooltip": [
+            {"field": "FY"},
+            {"field": "Outturn"},
+            {"field": "Measure"}
+          ]
+        }
+      },
+      {
+        "mark": {"type": "line", "color": "#008C45"},
+        "encoding": {
+          "x": {"field": "FY", "type": "ordinal", "title": ""},
+          "y": {
+            "field": "Italy",
+            "type": "quantitative",
+            "title": "Percentage of GDP"
+          },
+          "tooltip": [{"field": "FY"}, {"field": "Italy"}, {"field": "Measure"}]
+        }
+      }
+    ]
+  },
+  "resolve": {"scale": {"y": "independent"}},
+  "config": {
+    "axis": {"labelFontSize": 12, "titleFontSize": 12, "grid": false},
+    "view": {
+      "footer": {
+        "align": "left",
+        "text": "Source: ONS, OBR • A fan chart shows a range of possible future outcomes and the uncertainty of forecasts.",
+        "fontSize": 10,
+        "fontStyle": "italic",
+        "anchor": "start"
+      }
+    }
+  }
+}
