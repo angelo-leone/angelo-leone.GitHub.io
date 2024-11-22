@@ -206,8 +206,8 @@
     "60th Percentile": 1.9,
     "70th Percentile": 1.9,
     "80th Percentile": 1.9,
-    "90th Percentile": 1.9
-    "Italy": "-0.5"
+    "90th Percentile": 1.9,
+    "Italy": -0.5
   },
   {
     "FY": "2025",
@@ -222,7 +222,7 @@
     "70th Percentile": 3,
     "80th Percentile": 3.5,
     "90th Percentile": 4.4,
-    "Italy": "0"
+    "Italy": 0
   },
   {
     "FY": "2026",
@@ -237,7 +237,7 @@
     "70th Percentile": 2.1,
     "80th Percentile": 2.8,
     "90th Percentile": 3.8,
-    "Italy": "0.5"
+    "Italy": 0.5
   },
   {
     "FY": "2027",
@@ -252,7 +252,7 @@
     "70th Percentile": 1.4,
     "80th Percentile": 2.2,
     "90th Percentile": 3.3,
-    "Italy": "1"
+    "Italy": 1
   },
   {
     "FY": "2028",
@@ -267,7 +267,7 @@
     "70th Percentile": 1,
     "80th Percentile": 1.8,
     "90th Percentile": 3,
-    "Italy": "1.7"
+    "Italy": 1.7
   },
   {
     "FY": "2029",
@@ -282,7 +282,7 @@
     "70th Percentile": 1.2,
     "80th Percentile": 2.2,
     "90th Percentile": 3.6,
-    "Italy": "2.3"
+    "Italy": 2.3
   },
   {
     "FY": "2030",
@@ -297,7 +297,7 @@
     "70th Percentile": 1.4,
     "80th Percentile": 2.4,
     "90th Percentile": 3.9,
-    "Italy": "2.8"
+    "Italy": 2.8
   },
   {
     "FY": "2011",
@@ -507,7 +507,7 @@
     "70th Percentile": 83.2,
     "80th Percentile": 83.2,
     "90th Percentile": 83.2,
-    "Italy": "135.8"
+    "Italy": 135.8
   },
   {
     "FY": "2025",
@@ -522,7 +522,7 @@
     "70th Percentile": 85,
     "80th Percentile": 85.7,
     "90th Percentile": 86.4,
-    "Italy": "137.7"
+    "Italy": 137.7
   },
   {
     "FY": "2026",
@@ -537,7 +537,7 @@
     "70th Percentile": 87,
     "80th Percentile": 88.8,
     "90th Percentile": 91.2,
-    "Italy": "137.7"
+    "Italy": 137.7
   },
   {
     "FY": "2027",
@@ -552,7 +552,7 @@
     "70th Percentile": 90.3,
     "80th Percentile": 94.1,
     "90th Percentile": 99.3,
-    "Italy": "137.5"
+    "Italy": 137.5
   },
   {
     "FY": "2028",
@@ -567,7 +567,7 @@
     "70th Percentile": 90.8,
     "80th Percentile": 95.1,
     "90th Percentile": 101.3,
-    "Italy": "137.1"
+    "Italy": 137.1
   },
   {
     "FY": "2029",
@@ -582,7 +582,7 @@
     "70th Percentile": 90.9,
     "80th Percentile": 95.6,
     "90th Percentile": 102.6,
-    "Italy": "136.4"
+    "Italy": 136.4
   },
   {
     "FY": "2030",
@@ -597,6 +597,6 @@
     "70th Percentile": 90.4,
     "80th Percentile": 95.2,
     "90th Percentile": 102.3,
-    "Italy": "135.3"
+    "Italy": 135.3
   }
 ]
