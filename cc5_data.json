@@ -1,0 +1,79 @@
+{
+    "visualization": {
+        "title": "Keywords in the Italian annual budget law",
+        "subtitle": "Le 20 parole tematiche più frequenti nel testo",
+        "type": "bar_chart"
+    },
+    "data": {
+        "words": [
+            "lavoro",
+            "imposta",
+            "sviluppo",
+            "locali",
+            "sociali",
+            "societa",
+            "redditi",
+            "immobili",
+            "territorio",
+            "infrastrutture",
+            "reddito",
+            "credito",
+            "lavoratori",
+            "impresa",
+            "protezione",
+            "sociale",
+            "ricostruzione",
+            "bolzano",
+            "plusvalenze",
+            "sanitario"
+        ],
+        "frequencies": [
+            630,
+            600,
+            309,
+            305,
+            299,
+            291,
+            251,
+            243,
+            241,
+            202,
+            185,
+            184,
+            177,
+            177,
+            168,
+            167,
+            164,
+            151,
+            149,
+            132
+        ],
+        "percentages": [
+            0.59,
+            0.56,
+            0.29,
+            0.29,
+            0.28,
+            0.27,
+            0.24,
+            0.23,
+            0.23,
+            0.19,
+            0.17,
+            0.17,
+            0.17,
+            0.17,
+            0.16,
+            0.16,
+            0.15,
+            0.14,
+            0.14,
+            0.12
+        ]
+    },
+    "statistics": {
+        "total_unique_words": 9950,
+        "total_words_analyzed": 106536
+    }
+}
