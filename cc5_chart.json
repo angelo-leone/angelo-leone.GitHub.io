@@ -1,0 +1,181 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "config": {
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 14
+    },
+    "title": {
+      "anchor": "start"
+    },
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 400
+    }
+  },
+  "data": {
+    "name": "data-af3b9403e2f770386c62fc77bc17b901"
+  },
+  "datasets": {
+    "data-af3b9403e2f770386c62fc77bc17b901": [
+      {
+        "frequency": 630,
+        "percentage": 0.59,
+        "word": "lavoro"
+      },
+      {
+        "frequency": 600,
+        "percentage": 0.56,
+        "word": "imposta"
+      },
+      {
+        "frequency": 309,
+        "percentage": 0.29,
+        "word": "sviluppo"
+      },
+      {
+        "frequency": 305,
+        "percentage": 0.29,
+        "word": "locali"
+      },
+      {
+        "frequency": 299,
+        "percentage": 0.28,
+        "word": "sociali"
+      },
+      {
+        "frequency": 291,
+        "percentage": 0.27,
+        "word": "societa"
+      },
+      {
+        "frequency": 251,
+        "percentage": 0.24,
+        "word": "redditi"
+      },
+      {
+        "frequency": 243,
+        "percentage": 0.23,
+        "word": "immobili"
+      },
+      {
+        "frequency": 241,
+        "percentage": 0.23,
+        "word": "territorio"
+      },
+      {
+        "frequency": 202,
+        "percentage": 0.19,
+        "word": "infrastrutture"
+      },
+      {
+        "frequency": 185,
+        "percentage": 0.17,
+        "word": "reddito"
+      },
+      {
+        "frequency": 184,
+        "percentage": 0.17,
+        "word": "credito"
+      },
+      {
+        "frequency": 177,
+        "percentage": 0.17,
+        "word": "lavoratori"
+      },
+      {
+        "frequency": 177,
+        "percentage": 0.17,
+        "word": "impresa"
+      },
+      {
+        "frequency": 168,
+        "percentage": 0.16,
+        "word": "protezione"
+      },
+      {
+        "frequency": 167,
+        "percentage": 0.16,
+        "word": "sociale"
+      },
+      {
+        "frequency": 164,
+        "percentage": 0.15,
+        "word": "ricostruzione"
+      },
+      {
+        "frequency": 151,
+        "percentage": 0.14,
+        "word": "bolzano"
+      },
+      {
+        "frequency": 149,
+        "percentage": 0.14,
+        "word": "plusvalenze"
+      },
+      {
+        "frequency": 132,
+        "percentage": 0.12,
+        "word": "sanitario"
+      }
+    ]
+  },
+  "encoding": {
+    "color": {
+      "field": "percentage",
+      "legend": {
+        "title": "Percentage"
+      },
+      "scale": {
+        "scheme": "viridis"
+      },
+      "type": "quantitative"
+    },
+    "tooltip": [
+      {
+        "field": "word",
+        "title": "Word",
+        "type": "nominal"
+      },
+      {
+        "field": "frequency",
+        "format": ",",
+        "title": "Count",
+        "type": "quantitative"
+      },
+      {
+        "field": "percentage",
+        "format": ".1f",
+        "title": "Percentage",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "axis": {
+        "labelAngle": -45,
+        "title": "Keywords"
+      },
+      "field": "word",
+      "sort": "-y",
+      "type": "nominal"
+    },
+    "y": {
+      "axis": {
+        "format": ",.1f",
+        "tickCount": 6,
+        "title": "Frequency (%)"
+      },
+      "field": "percentage",
+      "type": "quantitative"
+    }
+  },
+  "height": 400,
+  "mark": "bar",
+  "title": {
+    "fontSize": 20,
+    "subtitle": "Top 20 most frequent thematic words",
+    "subtitleFontSize": 14,
+    "text": "Keywords in the Italian Annual Budget Law"
+  },
+  "width": 800
+}
