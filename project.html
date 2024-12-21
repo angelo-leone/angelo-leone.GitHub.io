@@ -78,6 +78,7 @@
                 2. the data you used, how you accessed it, including notes on automation/replication; PROJECT TIP: you should comment on your data sources. This should go beyond simply stating the source, "World Bank, 2020". In a DS project you should know in detail how the data are collected and how reliable they are. 
                 3. challenges in data cleaning and/or analysis, and the tools you used to overcome them.
             </p>
+            <figure id="Location2B"></figure>
         </div>
     </section>
     <section>
@@ -182,11 +183,13 @@
     <script>
         let figure_1_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/project_chart1.json"; // We're storing the URL of the graph we want to display in a variable
         let figure_2_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/Project_chart2.json";
+        let figure_2B_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/project_chart2B.json";
         let figure_3_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/Project_chart3.json";
         let figure_4_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/project_chart4.json";
 
         vegaEmbed('#Location1', figure_1_spec)
         vegaEmbed('#Location2', figure_2_spec) 
+        vegaEmbed('#Location2B', figure_2B_spec) 
         vegaEmbed('#Location3', figure_3_spec)
         vegaEmbed('#Location4', figure_4_spec)
     </script>
