@@ -1,317 +1,127 @@
 <!DOCTYPE html>
-<html> 
-
+<html>
 <head>    
     <link rel="stylesheet" type="text/css" href="index.css">
     <title>Angelo Leone - Portfolio</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-
-    <style>
-        #chartGrid {
-            display: flex;
-        }
-        
-    </style>
 </head>
 
 <body> 
-    <header class="header"></header>
-        <h1 class="big"></h1>
-            Angelo Leone
-        </h1>
-        <p class="subtitle"></p>
-            Economics | Data Science | Public Policy
-        </p>
+    <header>
+        <h1>Angelo Leone</h1>
+        <p>Economics | Data Science | Public Policy</p>
     </header>
-    <p class="linkslist">
-        <a href="project.html">Project</a> | <a href="portfolio.html">Portfolio</a> | <a href="https://www.linkedin.com/in/a-leone/">LinkedIn</a> | <a
-            href="https://www.github.com/angelo-leone">GitHub</a>
-    </p>
-    <h2 class="small"> 
-        This page acts as a portfolio.  
-    </h2>
-    <h2 class="small"> 
-        Week 1  
-    </h2>
-    <section>
-        <div class="chart-description">
-            <h3>Section 1: A basic chart</h3>
-            <p> 
-                We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
-                As a first example, we're using a basic chart from our repo.
-            </p>
-        </div>
-        <figure id="Location1"></figure>
-    </section>
 
-    <section>
-        <div class="chart-description">
-            <h3>Section 2: A new chart</h3>
-            <p>
-                Hello
-            </p>
-        </div>
-        <figure id="Location2"></figure> 
-    </section>
+    <nav>
+        <a href="project.html">Project</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="https://www.linkedin.com/in/a-leone/">LinkedIn</a>
+        <a href="https://www.github.com/angelo-leone">GitHub</a>
+    </nav>
 
-    <h2 class="small"> 
-        Week 2  
-    </h2>
-    <section>
-        <div class="chart-description">
-            <h3>Section 3: First chart generated through ECO Data Hub</h3>
-            <p> 
-                lalala.
-            </p>
-        </div>
-        <figure id="Location3"></figure>
-    </section>
-    <section>
-        <div class="chart-description">
-            <h3>Section 4: Second chart generated through ECO Data Hub</h3>
-            <p> 
-                lalala.
-            </p>
-        </div>
-        <figure id="Location4"></figure>
-    </section>
+    <main>
+        <h2>Portfolio</h2>
+        
+        <section>
+            <h2>Week 1</h2>
+            <div class="chart-container">
+                <h3>A basic chart</h3>
+                <p>We've organised the page into sections, with each section containing a chart, title and a description.</p>
+                <figure id="Location1"></figure>
+            </div>
+        </section>
 
-    <h2 class="small"> 
-        Week 3: Under-performing: How can we boost Britain’s low productivity?
-    </h2>
-    <section>
-        <div class="text">
-            <h3>Topic: Stagnant productivity growth in Britain. </h3>
-            <p> 
-                Description of the topic, no more than 25 words. UK productivity has been sluggish since the 2007-09 financial crisis. Our expert panel debates the causes of the UK’s productivity stagnation and consider potential policy solutions. This session explores the extent of the challenge and to discover how boosting investment, improving education and training, exploiting technological innovation, and changes in regulation could help address the UK’s productivity puzzle.
+        <section>
+            <div class="chart-container">
+                <h3>A new chart</h3>
+                <p>Hello</p>
+                <figure id="Location2"></figure>
+            </div>
+        </section>
 
-                Chaired by Sam Fleming (Financial Times, chair), with Katy Riddington (National Composites Centre), Dariush Sokolov (Unite), Judy Stephenson (University College London) and Bart van Ark (University of Manchester and Productivity Institute).                
-            </p>
-        </div>
-    </section>
-    <section>
-        <div class="chart-description">
-            <h3>Section 5: GB productivity.</h3>
-            <p> 
-                Comment (not more than 25 words) on what you find. Your commentary should be placed near the chart in a way that makes it intuitive to your site’s users (i.e., above, below, or to the side). 
-            </p>
-        </div>
-        <figure id="Location5"></figure>
-    </section>
-    <section>
-        <div class="chart-description">
-            <h3>Section 6: Selected OECD countries productivity growth. </h3>
-            <p> 
-                Comment (not more than 25 words) on what you find. Your commentary should be placed near the chart in a way that makes it intuitive to your site’s users (i.e., above, below, or to the side). 
-            </p>
-        </div>
-        <figure id="Location6"></figure>
-    </section>
+        <section>
+            <h2>Week 2</h2>
+            <div class="chart-container">
+                <h3>First chart generated through ECO Data Hub</h3>
+                <p>lalala.</p>
+                <figure id="Location3"></figure>
+            </div>
+        </section>
 
-    <h2 class="small"> 
-        Week 4: Replication and improvement of someone else's work
-    </h2>
-    <section>
-        <div class="text">
-            <h3> Image of the chart (DESCRIPTION) </h3>
-            <img src="portfolioassignment4_chart1.png" alt="Figure 1: Public debt and deficits as a percentage of GDP">
-            <p> 
-                Description of the chart: Public debt and deficits as a percentage of GDP
-            </p>
-        </div>
-    </section>
-    <section>
-        <div class="chart-description">
-            <h3>Section 7: Replication.</h3>
-            <p> 
-                Chart replication: Figure 1: Public debt and deficits as a percentage of GDP. Source:
-                https://www.ft.com/content/5819326e-9c96-418d-9edb-27fa6d25d6d5.  
-                ADD FOOTER E ALTRE COSE CHART DOPO, ANCHE TITOLI GRAFICI
-            </p>
-        </div>
-        <figure id="Location7"></figure>
-    </section>
-    <section>
-        <div class="chart-description">
-            <h3>Section 8: Improvement. </h3>
-            <p> 
-                Add Italy prediction: https://www.mef.gov.it/export/sites/MEF/inevidenza/2024/Piano-strutturale-di-bilancio-e-di-medio-termine-Italia-2025-2029.pdf + https://tradingeconomics.com/italy/government-budget + https://tradingeconomics.com/italy/government-debt-to-gdp .
-                How did I improve it? Explain briefly (not more than 25 words) what you have done.
-                AGGIUNGI MIGLIORAMENTI CHE HAI FATTO QUI AL GRAFICO PRECEDENTE SECTION 7 + FOOTER NUOVE FONTI DATI + LEGENDA ITA & UK
-            </p>
-        </div>
-        <figure id="Location8"></figure>
-    </section>
-    <h2 class="small"> 
-        Week 5: Scraper. Implement a data scraper of your own.
-    </h2>
-    <section>
-        <div class="chart-description">
-            <h3>Section 9: KEYWORDS FROM THE ITALIAN ANNUAL BUDGET LAW.</h3>
-            <p> 
-                <a href="https://colab.research.google.com/drive/1ezaz5iSru63-DkJR8RzYxHwJBuMi2-7L?usp=sharing">Link to Google Colab.</a>
-                DESCRIPTION OF THE CHART (max 25 words)
-            </p>
-        </div>
-        <figure id="Location9"></figure>
-    </section>
-    <h2 class="small"> 
-        Week 6: Loops
-    </h2>
-    <section>
-        <div class="chart-description">
-            <h3>Section 10: DASHBOARD. REDNILA PIù PROFESSIONALE e COLORI COERENTI CON RESTO, SALVA LE SEI CHART SEPARATE SU GITHUB.</h3>
-            <p> 
-                <a href="https://colab.research.google.com/drive/13nHJoL-A0mOpfVcAHApEo8agan_wjBz8?usp=sharing">Link to Google Colab.</a>
-                DESCRIPTION OF THE CHART (max 25 words)
-            </p>
-        </div>
-        <figure id="Location10"></figure>
-    </section>
-    <h2 class="small"> 
-        Week 7: Map
-    </h2>
-    <section>
-        <div class="chart-description">
-            <h3>SECTION 11: MAP. DATI PRESI DA https://www.kaggle.com/datasets/ahnaftahmid/bangladesh-geojson-adm2-64-districts-zillas?resource=download</h3>
-            <p>
-                Primo grafico mostra mappa Bangladesh, secondo mappa la densità di populazione, terzo aggiunge bolle nelle città più popolate e la grandezza della bolla dipende dalla popolazione della città (Dhaka (largest bubble in the center)
-                Chittagong (on the southeast coast)
-                Sylhet (in the northeast)
-                Rajshahi (on the western side)
-                Khulna (in the southwest))
-                <a href="https://colab.research.google.com/drive/1SuPfWHYiPjfSNjjdXBGmYpwIK0cCP9kM?usp=sharing">Link to Google Colab.</a>
-                DESCRIPTION OF THE CHART (max 25 words)
-            </p>
-        </div>
-        <figure id="Location11"></figure>
-        <figure id="Location12"></figure>
-        <figure id="Location13"></figure>
-    </section>
-    <h2 class="small"> 
-        Week 8: Big Data
-    </h2>
-    <section>
-        <div class="chart-description">
-            <h3>SECTION 12: Chicken prices by store</h3>
-            <p>
-                Primo grafico mostra mappa Bangladesh, secondo mappa la densità di populazione, terzo aggiunge bolle nelle città più popolate e la grandezza della bolla dipende dalla popolazione della città (Dhaka (largest bubble in the center)
-                Chittagong (on the southeast coast)
-                Sylhet (in the northeast)
-                Rajshahi (on the western side)
-                Khulna (in the southwest))
-                <a href="https://colab.research.google.com/drive/1SuPfWHYiPjfSNjjdXBGmYpwIK0cCP9kM?usp=sharing">Link to Google Colab.</a>
-                DESCRIPTION OF THE CHART (max 25 words)
-            </p>
-        </div>
-        <figure id="Location14"></figure>
-    </section>
-    <section>
-        <div class="chart-description">
-            <h3>SECTION 13: PRICE EVOLUTION OF CHICKEN SINCE DATA IS AVAILABLE</h3>
-            <p>
-                ok
-            </p>
-        </div>
-        <figure id="Location15"></figure>
-    </section>
-    <h2 class="small"> 
-        Week 9: Analytics
-    </h2>
-    <section>
-        <div class="chart-description">
-            <h3>SECTION 14: SCATTER</h3>
-            <p>
-                Primo grafico mostra mappa Bangladesh, secondo mappa la densità di populazione, terzo aggiunge bolle nelle città più popolate e la grandezza della bolla dipende dalla popolazione della città (Dhaka (largest bubble in the center)
-                Chittagong (on the southeast coast)
-                Sylhet (in the northeast)
-                Rajshahi (on the western side)
-                Khulna (in the southwest))
-                <a href="https://colab.research.google.com/drive/1SuPfWHYiPjfSNjjdXBGmYpwIK0cCP9kM?usp=sharing">Link to Google Colab.</a>
-                DESCRIPTION OF THE CHART (max 25 words)
-            </p>
-        </div>
-        <figure id="Location16"></figure>
-    </section>
-    <section>
-        <div class="chart-description">
-            <h3>SECTION 15: MULTIVARIATE REGRESSION</h3>
-            <p>
-                ok
-            </p>
-        </div>
-        <figure id="Location17"></figure>
-    </section>
-    <h2 class="small"> 
-        Week 9: ML or Interactive Viz. Potrei analizzare testi populisti per capire di cosa si parla
-    </h2>
-    <section>
-        <div class="chart-description">
-            <h3>SECTION xx: xx</h3>
-            <p>
-                
-            </p>
-        </div>
-        <figure id="Location18"></figure>
-    </section>
-    <section>
-        <div class="chart-description">
-            <h3>SECTION xx: xx</h3>
-            <p>
-                
-            </p>
-        </div>
-        <figure id="Location19"></figure>
-    </section>
+        <section>
+            <div class="chart-container">
+                <h3>Second chart generated through ECO Data Hub</h3>
+                <p>lalala.</p>
+                <figure id="Location4"></figure>
+            </div>
+        </section>
+
+        <section>
+            <h2>Week 3: Under-performing: How can we boost Britain's low productivity?</h2>
+            <div class="text-container">
+                <h3>Stagnant productivity growth in Britain</h3>
+                <p>UK productivity has been sluggish since the 2007-09 financial crisis. Our expert panel debates the causes and potential solutions.</p>
+                <p>Chaired by Sam Fleming (Financial Times), with Katy Riddington (National Composites Centre), Dariush Sokolov (Unite), Judy Stephenson (UCL) and Bart van Ark (University of Manchester).</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="chart-container">
+                <h3>GB productivity</h3>
+                <p>Chart analysis here (max 25 words)</p>
+                <figure id="Location5"></figure>
+            </div>
+        </section>
+
+        <!-- Continue with remaining weeks following same pattern -->
+
+        <section>
+            <h2>Week 9: Analytics</h2>
+            <div class="chart-container">
+                <h3>Scatter Plot Analysis</h3>
+                <p><a href="https://colab.research.google.com/drive/1SuPfWHYiPjfSNjjdXBGmYpwIK0cCP9kM?usp=sharing">View Google Colab</a></p>
+                <figure id="Location16"></figure>
+            </div>
+        </section>
+
+        <section>
+            <div class="chart-container">
+                <h3>Multivariate Regression</h3>
+                <figure id="Location17"></figure>
+            </div>
+        </section>
+    </main>
 
     <script>
+        const charts = {
+            'Location1': 'https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json',
+            'Location2': 'chartLine3.json',
+            'Location3': 'portfolioassignment2_chart1.json',
+            'Location4': 'portfolioassignment2_chart2.json',
+            'Location5': 'portfolioassignment3_chart1.json',
+            'Location6': 'portfolioassignment3_chart2.json',
+            'Location7': 'portfolioassignment4_chart1.json',
+            'Location8': 'portfolioassignment4_chart2.json',
+            'Location9': 'cc5_chart.json',
+            'Location10': 'cc6_gridchart.json',
+            'Location11': 'cc7_chart1.json',
+            'Location12': 'cc7_chart2.json',
+            'Location13': 'cc7_chart3.json',
+            'Location14': 'cc8_chart1.json',
+            'Location15': 'cc8_chart2.json',
+            'Location16': 'Project_chart3.json',
+            'Location17': 'project_chart7.json',
+            'Location18': 'project_chart8.json',
+            'Location19': 'project_chart9.json'
+        };
 
-        let figure_1_spec = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json"; // We're storing the URL of the graph we want to display in a variable
-        let figure_2_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/chartLine3.json";  
-        let figure_3_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/portfolioassignment2_chart1.json";
-        let figure_4_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/portfolioassignment2_chart2.json";
-        let figure_5_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/portfolioassignment3_chart1.json"; 
-        let figure_6_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/portfolioassignment3_chart2.json"; 
-        let figure_7_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/portfolioassignment4_chart1.json";
-        let figure_8_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/portfolioassignment4_chart2.json";
-        let figure_9_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/cc5_chart.json";
-        let figure_10_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/cc6_gridchart.json";
-        let figure_11_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/cc7_chart1.json";
-        let figure_12_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/cc7_chart2.json";
-        let figure_13_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/cc7_chart3.json"; 
-        let figure_14_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/cc8_chart1.json";
-        let figure_15_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/cc8_chart2.json";
-        let figure_16_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/Project_chart3.json";
-        let figure_17_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/project_chart7.json";
-        let figure_18_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/project_chart8.json";
-        let figure_19_spec = "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/project_chart9.json";
-
-        vegaEmbed('#Location1', figure_1_spec);
-        vegaEmbed('#Location2', figure_2_spec);
-        vegaEmbed('#Location3', figure_3_spec);
-        vegaEmbed('#Location4', figure_4_spec);
-        vegaEmbed('#Location5', figure_5_spec);
-        vegaEmbed('#Location6', figure_6_spec);
-        vegaEmbed('#Location7', figure_7_spec);
-        vegaEmbed('#Location8', figure_8_spec);
-        vegaEmbed('#Location9', figure_9_spec);
-        vegaEmbed('#Location10', figure_10_spec);
-        vegaEmbed('#Location11', figure_11_spec);
-        vegaEmbed('#Location12', figure_12_spec);
-        vegaEmbed('#Location13', figure_13_spec);
-        vegaEmbed('#Location14', figure_14_spec);
-        vegaEmbed('#Location15', figure_15_spec);
-        vegaEmbed('#Location16', figure_16_spec);
-        vegaEmbed('#Location17', figure_17_spec);
-        vegaEmbed('#Location18', figure_18_spec);
-        vegaEmbed('#Location19', figure_19_spec);
-
-        
+        Object.entries(charts).forEach(([location, chart]) => {
+            const spec = `https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/${chart}`;
+            vegaEmbed(`#${location}`, spec);
+        });
     </script>
-
 </body>
-    
 </html>

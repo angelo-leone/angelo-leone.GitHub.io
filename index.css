@@ -1,58 +1,177 @@
-/* Principal color and font */
+/* Base variables */
+:root {
+    --primary-color: #000080;
+    --white: #ffffff;
+    --light-gray: #f5f5f5;
+    --dark-gray: #333333;
+}
+
+/* Base styles */
 body {
-    background-color: #000080; /* bluenavy */
     font-family: 'Garamond', serif;
-    color: #ffffff; /* white for text contrast */
+    line-height: 1.6;
     margin: 0;
     padding: 0;
+    color: var(--dark-gray);
+    background-color: var(--light-gray);
 }
 
-/* Professional and modern style */
-header, nav, main, footer {
-    padding: 20px;
-    margin: 10px;
-    border-radius: 8px;
-    background-color: #ffffff; /* white background for sections */
-    color: #000080; /* bluenavy text */
-}
-
+/* Header */
 header {
-    background-color: #1a1a1a; /* dark background for header */
-    color: #ffffff; /* white text for header */
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+header p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Navigation */
+nav {
+    background-color: var(--white);
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 2px solid var(--primary-color);
 }
 
 nav a {
-    color: #000080; /* bluenavy links */
+    color: var(--primary-color);
     text-decoration: none;
-    padding: 10px;
-    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
 }
 
 nav a:hover {
-    background-color: #000080; /* bluenavy background on hover */
-    color: #ffffff; /* white text on hover */
+    background-color: var(--primary-color);
+    color: var(--white);
 }
 
+/* Main content */
 main {
-    background-color: #f0f0f0; /* light grey background for main content */
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
 }
 
-footer {
-    background-color: #1a1a1a; /* dark background for footer */
-    color: #ffffff; /* white text for footer */
-    text-align: center;
-    padding: 10px;
+section {
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
 }
 
+/* Typography */
+h2 {
+    color: var(--primary-color);
+    margin-top: 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+/* Links */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Charts and figures */
+figure {
+    margin: 2rem 0;
+    width: 100%;
+    min-height: 400px;
+}
+
+.chart-container {
+    margin: 2rem 0;
+}
+
+.chart-container h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.chart-container p {
+    margin-bottom: 1.5rem;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Text containers */
+.text-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Chart grid */
+#chartGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+/* Buttons */
 button {
-    background-color: #000080; /* bluenavy buttons */
-    color: #ffffff; /* white text */
+    background-color: var(--primary-color);
+    color: var(--white);
     border: none;
-    padding: 10px 20px;
+    padding: 0.8rem 1.5rem;
     border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #1a1a1a; /* dark background on hover */
+    background-color: #000066;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    nav a {
+        display: block;
+        margin: 0.5rem auto;
+    }
+    
+    section {
+        padding: 1rem;
+    }
+    
+    #chartGrid {
+        grid-template-columns: 1fr;
+    }
 }
