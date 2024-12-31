@@ -23,67 +23,70 @@
     </nav>
 
     <main>
-        <section>
-            <h2>The causes of the rise of populism in OECD countries</h2>
-            <p>The aims of my project:</p>
-        </section>
-
-        <section>
-            <h2>The rise of populism</h2>
-            <div class="chart-container">
-                <p>
-                    1. Description of the chart and aim of the analysis<br>
-                    2. Data sources and methodology<br>
-                    3. Data processing challenges and solutions
-                </p>
-                <figure id="Location1"></figure>
+        <div class="week-section">
+            <h2 class="week-title">The causes of the rise of populism in OECD countries</h2>
+            <p class="week-description">Understanding the driving factors behind increasing populist tendencies in developed economies.</p>
+            
+            <div class="chart-grid">
+                <div class="chart-container">
+                    <h3 class="chart-title">The Rise of Populism</h3>
+                    <p>Tracking the evolution of populist discourse across OECD nations, highlighting key trends and patterns in political rhetoric.</p>
+                    <figure id="Location1"></figure>
+                </div>
             </div>
-        </section>
 
-        <section>
-            <h2>Geographic Distribution of Populism</h2>
-            <div class="chart-container">
-                <p>Source: populism.byu.edu</p>
-                <figure id="Location2"></figure>
+            <div class="chart-grid">
+                <div class="chart-container">
+                    <h3 class="chart-title">Geographic Distribution of Populism</h3>
+                    <p>Source: populism.byu.edu</p>
+                    <p>Spatial analysis of populist movements and their regional concentrations.</p>
+                    <figure id="Location2"></figure>
+                </div>
             </div>
-        </section>
 
-        <section>
-            <h2>Countries Driving Populist Growth</h2>
-            <div class="chart-container">
-                <figure id="Location5"></figure>
+            <div class="chart-grid">
+                <div class="chart-container">
+                    <h3 class="chart-title">Countries Driving Populist Growth</h3>
+                    <p>Analysis of which nations have experienced the most significant increases in populist sentiment.</p>
+                    <figure id="Location5"></figure>
+                </div>
             </div>
-        </section>
 
-        <section>
-            <h2>Populism and Government Quality</h2>
-            <div class="chart-container">
-                <p>Source: World Bank Worldwide Governance Indicators</p>
-                <figure id="Location3"></figure>
+            <div class="chart-grid">
+                <div class="chart-container">
+                    <h3 class="chart-title">Populism and Government Quality</h3>
+                    <p>Source: World Bank Worldwide Governance Indicators</p>
+                    <p>Examining the relationship between populist movements and governance effectiveness metrics.</p>
+                    <figure id="Location3"></figure>
+                </div>
             </div>
-        </section>
 
-        <section>
-            <h2>Economic Factors</h2>
-            <div class="chart-container">
-                <p>Source: World Bank Data</p>
-                <figure id="Location4"></figure>
+            <div class="chart-grid">
+                <div class="chart-container">
+                    <h3 class="chart-title">Economic Factors</h3>
+                    <p>Source: World Bank Data</p>
+                    <p>Investigation of economic indicators and their correlation with populist trends.</p>
+                    <figure id="Location4"></figure>
+                </div>
             </div>
-        </section>
 
-        <section>
-            <h2>Immigration Impact</h2>
-            <div class="chart-container">
-                <p>Source: ProQuest TDM</p>
-                <figure id="Location6"></figure>
-                <figure id="Location7"></figure>
+            <div class="chart-grid">
+                <div class="chart-container">
+                    <h3 class="chart-title">Immigration Impact</h3>
+                    <p>Source: ProQuest TDM</p>
+                    <p>Analysis of immigration patterns and their relationship to populist sentiment.</p>
+                    <figure id="Location6"></figure>
+                    <figure id="Location7"></figure>
+                </div>
             </div>
-        </section>
 
-        <section>
-            <h2>Conclusion</h2>
-            <p>[Your conclusion content]</p>
-        </section>
+            <div class="chart-grid">
+                <div class="chart-container">
+                    <h3 class="chart-title">Conclusion</h3>
+                    <p>Summary of findings and implications for future policy considerations.</p>
+                </div>
+            </div>
+        </div>
     </main>
 
     <script>
@@ -99,7 +102,7 @@
 
         Object.entries(charts).forEach(([location, chart]) => {
             const spec = `https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/${chart}`;
-            vegaEmbed(`#${location}`, spec);
+            vegaEmbed(`#${location}`, spec).catch(console.error);
         });
     </script>
 </body>
