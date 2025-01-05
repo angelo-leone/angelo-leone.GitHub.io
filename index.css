@@ -1,207 +1,284 @@
 :root {
-    --primary-color: #000080;
-    --white: #ffffff;
-    --light-gray: #f5f5f5;
-    --dark-gray: #333333;
-    --shadow: 0 2px 4px rgba(0,0,0,0.1);
-    --transition: all 0.3s ease;
- }
- 
- body {
-    font-family: 'Garamond', serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    color: var(--dark-gray);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-color: var(--white);
-    max-width: 100vw;
-    overflow-x: hidden;
- }
- 
- header {
-    background-color: var(--primary-color);
-    color: var(--white);
-    padding: 2rem;
-    text-align: center;
-    box-shadow: var(--shadow);
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);
- }
- 
- header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-    font-weight: 600;
- }
- 
- header p {
-    margin: 0.5rem 0;
-    font-size: 1.2rem;
-    opacity: 0.9;
- }
- 
- nav {
-    padding: 1rem;
-    text-align: center;
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);
-    margin-bottom: 0;
-    background-color: var(--white);
-    border-bottom: 2px solid var(--primary-color);
- }
- 
- nav a {
-    color: var(--primary-color);
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    margin: 0 0.5rem;
-    border-radius: 4px;
-    transition: var(--transition);
- }
- 
- nav a:hover {
-    background-color: var(--primary-color);
-    color: var(--white);
- }
- 
- main {
-    flex: 1;
-    width: 100%;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 2rem;
-    box-sizing: border-box;
-    background-color: var(--white);
- }
- 
- .week-section {
-    margin: 1rem 0;
-    border-left: 4px solid var(--primary-color);
-    padding: 2rem;
-    background: var(--white);
-    border-radius: 0 8px 8px 0;
-    box-shadow: var(--shadow);
-    box-sizing: border-box;
- }
- 
- .week-title {
-    font-size: 1.8rem;
-    color: var(--primary-color);
-    margin: 0 0 1.5rem 0;
-    padding: 1rem 0;
- }
- 
- .week-description {
-    color: var(--dark-gray);
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
-    padding: 0 1rem;
- }
- 
- .chart-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 1rem;
-    box-sizing: border-box;
- }
- 
- .chart-container {
-    background: var(--white);
-    border-radius: 8px;
-    box-shadow: var(--shadow);
-    padding: 2rem;
-    transition: var(--transition);
-    width: 100%;
-    box-sizing: border-box;
- }
- 
- .chart-container:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
- }
- 
- .chart-title {
-    font-size: 1.4rem;
-    color: var(--primary-color);
-    margin-bottom: 1rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid var(--primary-color);
- }
- 
- figure {
-    margin: 2rem 0;
-    width: 100%;
-    min-height: 400px;
-    overflow: hidden;
+   --primary-color: #000080;
+   --white: #ffffff;
+   --light-gray: #f5f5f5;
+   --dark-gray: #333333;
+   --shadow: 0 2px 4px rgba(0,0,0,0.1);
+   --transition: all 0.3s ease;
 }
 
- 
- img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
-    box-shadow: var(--shadow);
- }
- 
- a {
-    color: var(--primary-color);
-    text-decoration: none;
-    transition: var(--transition);
- }
- 
- a:hover {
-    text-decoration: underline;
- }
- 
- p {
-    margin-bottom: 1rem;
-    line-height: 1.7;
- }
- 
- @media (max-width: 1200px) {
-    main {
-        padding: 1rem;
-    }
- 
-    .week-section {
-        padding: 1.5rem;
-    }
- }
- 
- @media (max-width: 768px) {
-    main {
-        padding: 0.5rem;
-    }
- 
-    .week-section {
-        padding: 1rem;
-        margin: 1rem 0;
-    }
- 
-    .chart-container {
-        padding: 1rem;
-    }
- 
-    .week-title {
-        font-size: 1.5rem;
-    }
- 
-    nav a {
-        display: block;
-        margin: 0.5rem auto;
-    }
- 
-    header h1 {
-        font-size: 2rem;
-    }
- 
-    figure {
-        min-height: 300px;
-    }
- }
+body {
+   font-family: 'Garamond', serif;
+   line-height: 1.6;
+   margin: 0;
+   padding: 0;
+   color: var(--dark-gray);
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   background-color: var(--white);
+   max-width: 100vw;
+   overflow-x: hidden;
+}
+
+header {
+   background-color: var(--primary-color);
+   color: var(--white);
+   padding: 2rem;
+   text-align: center;
+   box-shadow: var(--shadow);
+   width: 100vw;
+   margin-left: calc(-50vw + 50%);
+   margin-right: calc(-50vw + 50%);
+}
+
+header h1 {
+   margin: 0;
+   font-size: 2.5rem;
+   font-weight: 600;
+}
+
+header p {
+   margin: 0.5rem 0;
+   font-size: 1.2rem;
+   opacity: 0.9;
+}
+
+nav {
+   padding: 1rem;
+   text-align: center;
+   width: 100vw;
+   margin-left: calc(-50vw + 50%);
+   margin-right: calc(-50vw + 50%);
+   margin-bottom: 0;
+   background-color: var(--white);
+   border-bottom: 2px solid var(--primary-color);
+}
+
+nav a {
+   color: var(--primary-color);
+   text-decoration: none;
+   padding: 0.5rem 1rem;
+   margin: 0 0.5rem;
+   border-radius: 4px;
+   transition: var(--transition);
+}
+
+nav a:hover {
+   background-color: var(--primary-color);
+   color: var(--white);
+}
+
+main {
+   flex: 1;
+   width: 100%;
+   max-width: 1400px;
+   margin: 0 auto;
+   padding: 2rem;
+   box-sizing: border-box;
+   background-color: var(--white);
+}
+
+.week-section {
+   margin: 1rem 0;
+   border-left: 4px solid var(--primary-color);
+   padding: 2rem;
+   background: var(--white);
+   border-radius: 0 8px 8px 0;
+   box-shadow: var(--shadow);
+   box-sizing: border-box;
+}
+
+.week-title {
+   font-size: 1.8rem;
+   color: var(--primary-color);
+   margin: 0 0 1.5rem 0;
+   padding: 1rem 0;
+}
+
+.week-description {
+   color: var(--dark-gray);
+   font-size: 1.1rem;
+   margin-bottom: 2rem;
+   padding: 0 1rem;
+}
+
+.chart-grid {
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   padding: 1rem;
+   box-sizing: border-box;
+}
+
+.chart-container {
+   background: var(--white);
+   border-radius: 8px;
+   box-shadow: var(--shadow);
+   padding: 2rem;
+   transition: var(--transition);
+   width: 100%;
+   box-sizing: border-box;
+}
+
+.chart-container:hover {
+   transform: translateY(-2px);
+   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.chart-title {
+   font-size: 1.4rem;
+   color: var(--primary-color);
+   margin-bottom: 1rem;
+   padding-bottom: 0.5rem;
+   border-bottom: 2px solid var(--primary-color);
+}
+
+/* Updated figure styles for better responsiveness */
+figure {
+   margin: 2rem 0;
+   width: 100%;
+   min-height: 400px;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/* Make Vega-Lite charts responsive */
+.vega-embed {
+   width: 100% !important;
+   height: auto !important;
+   display: flex;
+   justify-content: center;
+}
+
+.vega-embed canvas {
+   max-width: 100% !important;
+   height: auto !important;
+}
+
+/* Ensure the SVG container is responsive */
+.vega-embed .marks {
+   width: 100% !important;
+   height: auto !important;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+   border-radius: 4px;
+   box-shadow: var(--shadow);
+}
+
+a {
+   color: var(--primary-color);
+   text-decoration: none;
+   transition: var(--transition);
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+p {
+   margin-bottom: 1rem;
+   line-height: 1.7;
+}
+
+/* Enhanced responsive breakpoints */
+@media (max-width: 1200px) {
+   main {
+       padding: 1rem;
+   }
+
+   .week-section {
+       padding: 1.5rem;
+   }
+
+   figure {
+       min-height: 350px;
+   }
+}
+
+@media (max-width: 768px) {
+   main {
+       padding: 0.5rem;
+   }
+
+   .week-section {
+       padding: 1rem;
+       margin: 1rem 0;
+   }
+
+   .chart-container {
+       padding: 1rem;
+   }
+
+   .week-title {
+       font-size: 1.5rem;
+   }
+
+   nav {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+
+   nav a {
+       display: block;
+       margin: 0.5rem auto;
+       width: 80%;
+       max-width: 300px;
+   }
+
+   header h1 {
+       font-size: 2rem;
+   }
+
+   figure {
+       min-height: 300px;
+   }
+
+   .chart-container:hover {
+       transform: none;
+   }
+}
+
+@media (max-width: 480px) {
+   header h1 {
+       font-size: 1.75rem;
+   }
+
+   header p {
+       font-size: 1rem;
+   }
+
+   .week-section {
+       padding: 0.75rem;
+       border-left-width: 3px;
+   }
+
+   .chart-container {
+       padding: 0.75rem;
+   }
+
+   figure {
+       min-height: 250px;
+       margin: 1rem 0;
+   }
+
+   .week-title {
+       font-size: 1.3rem;
+       padding: 0.5rem 0;
+   }
+
+   .week-description {
+       font-size: 1rem;
+       padding: 0 0.5rem;
+   }
+
+   .chart-title {
+       font-size: 1.2rem;
+   }
+}
