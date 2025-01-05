@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "background": "#fff1e5",
   "title": {
-    "text": "Fiscal policy in the UK",
-    "subtitle": "The Office for Budget Responsibility expects the chancellor to meet her fiscal targets",
+    "text": "The Office for Budget Responsibility expects the chancellor to meet her fiscal targets",
+    "subtitle": "Percentage of GDP, UK (pink) vs. Italy (green)",
     "anchor": "start",
     "align": "left",
     "fontSize": 14,
@@ -27,19 +27,31 @@
     }
   },
   "spec": {
-    "width": 300,
-    "height": 200,
+    "width": 250,
+    "height": 180,
     "layer": [
       {
-        "mark": {"type": "area", "color": "#9BBFCD", "opacity": 0.3},
+        "mark": "rule",
         "encoding": {
-          "x": {"field": "FY", "type": "ordinal"},
+          "y": {"datum": 0},
+          "color": {"value": "#000000"},
+          "strokeDash": {"value": [4, 4]}
+        }
+      },
+      {
+        "mark": {"type": "area", "color": "#C6DBE5", "opacity": 0.3},
+        "encoding": {
+          "x": {
+            "field": "FY",
+            "type": "ordinal",
+            "axis": {"values": ["2014", "2018", "2022", "2026", "2030"]}
+          },
           "y": {"field": "10th Percentile", "type": "quantitative"},
           "y2": {"field": "90th Percentile"}
         }
       },
       {
-        "mark": {"type": "area", "color": "#4E79A7", "opacity": 0.5},
+        "mark": {"type": "area", "color": "#9BBFCD", "opacity": 0.5},
         "encoding": {
           "x": {"field": "FY", "type": "ordinal"},
           "y": {"field": "20th Percentile", "type": "quantitative"},
@@ -47,7 +59,7 @@
         }
       },
       {
-        "mark": {"type": "area", "color": "#1F77B4", "opacity": 0.7},
+        "mark": {"type": "area", "color": "#7FA3B6", "opacity": 0.7},
         "encoding": {
           "x": {"field": "FY", "type": "ordinal"},
           "y": {"field": "30th Percentile", "type": "quantitative"},
@@ -55,7 +67,7 @@
         }
       },
       {
-        "mark": {"type": "area", "color": "#1A5276", "opacity": 0.9},
+        "mark": {"type": "area", "color": "#63879E", "opacity": 0.9},
         "encoding": {
           "x": {"field": "FY", "type": "ordinal"},
           "y": {"field": "40th Percentile", "type": "quantitative"},
@@ -63,19 +75,15 @@
         }
       },
       {
-        "mark": {"type": "line", "color": "#E15759"},
+        "mark": {"type": "line", "color": "#FF1493"},
         "encoding": {
           "x": {"field": "FY", "type": "ordinal", "title": ""},
           "y": {
             "field": "Outturn",
             "type": "quantitative",
-            "title": "Percentage of GDP"
-          },
-          "tooltip": [
-            {"field": "FY"},
-            {"field": "Outturn"},
-            {"field": "Measure"}
-          ]
+            "title": null,
+            "axis": {"grid": false}
+          }
         }
       },
       {
@@ -85,24 +93,21 @@
           "y": {
             "field": "Italy",
             "type": "quantitative",
-            "title": "Percentage of GDP"
-          },
-          "tooltip": [{"field": "FY"}, {"field": "Italy"}, {"field": "Measure"}]
+            "title": null,
+            "axis": {"grid": false}
+          }
         }
       }
     ]
   },
   "resolve": {"scale": {"y": "independent"}},
   "config": {
-    "axis": {"labelFontSize": 12, "titleFontSize": 12, "grid": false},
-    "view": {
-      "footer": {
-        "align": "left",
-        "text": "Source: ONS, OBR • A fan chart shows a range of possible future outcomes and the uncertainty of forecasts.",
-        "fontSize": 10,
-        "fontStyle": "italic",
-        "anchor": "start"
-      }
-    }
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 11,
+      "grid": false,
+      "domain": true
+    },
+    "view": {"stroke": null}
   }
 }
