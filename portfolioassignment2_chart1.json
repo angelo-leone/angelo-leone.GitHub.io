@@ -1,101 +1,38 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "background": "#fff1e5",
   "title": {
-    "text": "The Office for Budget Responsibility expects the chancellor to meet her fiscal targets",
-    "subtitle": "Percentage of GDP",
+    "text": "GDP Growth in Italy",
     "anchor": "start",
-    "align": "left",
+    "subtitle": "GDP QoQ4 growth rate, % | Source: Istat through ECO API",
     "fontSize": 14,
-    "subtitleFontSize": 12
+    "subtitleFontSize": 12,
+    "color": "#000000",
+    "subtitleColor": "#000000"
   },
+  "height": 250,
+  "width": 400,
+  "autosize": {"type": "fit", "contains": "padding"},
+  "background": "#ffffff",
+  "view": {"fill": "#ffffff", "strokeOpacity": 0},
   "data": {
-    "url": "https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/portfolioassignment4_data1.json",
+    "url": "https://api.economicsobservatory.com/ita/grow?vega",
     "format": {"type": "json"}
   },
-  "transform": [
-    {
-      "filter": "datum.Measure == 'Current budget deficit' || datum.Measure == 'Public sector net liabilities'"
-    }
-  ],
-  "facet": {
-    "column": {
-      "field": "Measure",
-      "type": "nominal",
-      "title": null,
-      "header": {"labelAngle": 0, "labelAlign": "center"}
-    }
-  },
-  "spec": {
-    "width": 250,
-    "height": 180,
-    "layer": [
-      {
-        "mark": "rule",
-        "encoding": {
-          "y": {"datum": 0},
-          "color": {"value": "#000000"},
-          "strokeDash": {"value": [4, 4]}
-        }
-      },
-      {
-        "mark": {"type": "area", "color": "#C6DBE5", "opacity": 0.3},
-        "encoding": {
-          "x": {
-            "field": "FY",
-            "type": "ordinal",
-            "axis": {"values": ["2014", "2018", "2022", "2026", "2030"]}
-          },
-          "y": {"field": "10th Percentile", "type": "quantitative"},
-          "y2": {"field": "90th Percentile"}
-        }
-      },
-      {
-        "mark": {"type": "area", "color": "#9BBFCD", "opacity": 0.5},
-        "encoding": {
-          "x": {"field": "FY", "type": "ordinal"},
-          "y": {"field": "20th Percentile", "type": "quantitative"},
-          "y2": {"field": "80th Percentile"}
-        }
-      },
-      {
-        "mark": {"type": "area", "color": "#7FA3B6", "opacity": 0.7},
-        "encoding": {
-          "x": {"field": "FY", "type": "ordinal"},
-          "y": {"field": "30th Percentile", "type": "quantitative"},
-          "y2": {"field": "70th Percentile"}
-        }
-      },
-      {
-        "mark": {"type": "area", "color": "#63879E", "opacity": 0.9},
-        "encoding": {
-          "x": {"field": "FY", "type": "ordinal"},
-          "y": {"field": "40th Percentile", "type": "quantitative"},
-          "y2": {"field": "60th Percentile"}
-        }
-      },
-      {
-        "mark": {"type": "line", "color": "#FF1493"},
-        "encoding": {
-          "x": {"field": "FY", "type": "ordinal", "title": ""},
-          "y": {
-            "field": "Outturn",
-            "type": "quantitative",
-            "title": null,
-            "axis": {"grid": false}
-          }
-        }
-      }
-    ]
-  },
-  "resolve": {"scale": {"y": "independent"}},
-  "config": {
-    "axis": {
-      "labelFontSize": 11,
-      "titleFontSize": 11,
-      "grid": false,
-      "domain": true
+  "mark": {"type": "line", "color": "#f4134d", "strokeWidth": 2},
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "axis": {"title": "Year", "titleColor": "#122B39", "grid": false}
     },
-    "view": {"stroke": null}
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "axis": {
+        "title": "GDP Growth rate (%)",
+        "titleColor": "#122B39",
+        "grid": false
+      }
+    }
   }
 }
