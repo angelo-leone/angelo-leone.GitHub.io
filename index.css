@@ -119,6 +119,8 @@ main {
    transition: var(--transition);
    width: 100%;
    box-sizing: border-box;
+   max-width: 1000px;
+   margin: 0 auto;
 }
 
 .chart-container:hover {
@@ -134,10 +136,11 @@ main {
    border-bottom: 2px solid var(--primary-color);
 }
 
-/* Updated figure styles for better responsiveness */
+/* General figure styles */
 figure {
-   margin: 2rem 0;
+   margin: 2rem auto;
    width: 100%;
+   max-width: 800px;
    min-height: 400px;
    overflow: hidden;
    display: flex;
@@ -145,12 +148,27 @@ figure {
    align-items: center;
 }
 
-/* Make Vega-Lite charts responsive */
+/* Specific styles for first 4 figures */
+.week-section:nth-child(1) figure,
+.week-section:nth-child(2) figure {
+   max-width: 600px;
+   min-height: 350px;
+}
+
+/* Vega-embed styles */
 .vega-embed {
    width: 100% !important;
+   max-width: 800px !important;
    height: auto !important;
    display: flex;
    justify-content: center;
+   margin: 0 auto;
+}
+
+/* Specific Vega-embed styles for first 4 figures */
+.week-section:nth-child(1) .vega-embed,
+.week-section:nth-child(2) .vega-embed {
+   max-width: 600px !important;
 }
 
 .vega-embed canvas {
@@ -158,10 +176,15 @@ figure {
    height: auto !important;
 }
 
-/* Ensure the SVG container is responsive */
 .vega-embed .marks {
    width: 100% !important;
    height: auto !important;
+}
+
+.chart-container center {
+   width: 100%;
+   display: flex;
+   justify-content: center;
 }
 
 img {
@@ -186,7 +209,6 @@ p {
    line-height: 1.7;
 }
 
-/* Enhanced responsive breakpoints */
 @media (max-width: 1200px) {
    main {
        padding: 1rem;
@@ -196,8 +218,27 @@ p {
        padding: 1.5rem;
    }
 
+   .chart-container {
+       max-width: 900px;
+   }
+
    figure {
+       max-width: 700px;
        min-height: 350px;
+   }
+
+   .vega-embed {
+       max-width: 700px !important;
+   }
+
+   .week-section:nth-child(1) figure,
+   .week-section:nth-child(2) figure {
+       max-width: 500px;
+   }
+
+   .week-section:nth-child(1) .vega-embed,
+   .week-section:nth-child(2) .vega-embed {
+       max-width: 500px !important;
    }
 }
 
@@ -213,6 +254,7 @@ p {
 
    .chart-container {
        padding: 1rem;
+       max-width: 100%;
    }
 
    .week-title {
@@ -236,8 +278,17 @@ p {
        font-size: 2rem;
    }
 
-   figure {
+   figure,
+   .week-section:nth-child(1) figure,
+   .week-section:nth-child(2) figure {
+       max-width: 100%;
        min-height: 300px;
+   }
+
+   .vega-embed,
+   .week-section:nth-child(1) .vega-embed,
+   .week-section:nth-child(2) .vega-embed {
+       max-width: 100% !important;
    }
 
    .chart-container:hover {
