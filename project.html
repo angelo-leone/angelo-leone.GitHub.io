@@ -7,6 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-tooltip"></script>
 </head>
 
 <body> 
@@ -36,9 +37,7 @@
                 <div class="chart-container">
                     <h3 class="chart-title">1. The rise of populism</h3>
                     <p>Populist discourse in OECD countries showed stability until 2012, then rose sharply to peak in 2020, followed by decline. Projections suggest a modest upward trend through 2028, with uncertainty.</p>
-                    <center>
-                        <figure id="Location1"></figure>
-                    </center>
+                    <figure id="Location1"></figure>
                 </div>
             </div>
 
@@ -46,9 +45,7 @@
                 <div class="chart-container">
                     <h3 class="chart-title">2. Geographic distribution of populism (2000-2022)</h3>
                     <p> The map shows populist discourse levels across OECD countries from 2000-2022 using a gradient scale. <p>            
-                    <center>
-                        <figure id="Location2"></figure>
-                    </center>   
+                    <figure id="Location2"></figure>
                 </div>
             </div>
 
@@ -56,9 +53,7 @@
                 <div class="chart-container">
                     <h3 class="chart-title">3. Countries driving populist growth</h3>
                     <p>This visualization maps changes in populist discourse across OECD countries between first and last measurements. Dark teal shows major increases (notably in the USA and Turkiye), while lighter shades indicate minimal changes.</p>
-                    <center>
-                        <figure id="Location5"></figure>
-                    </center>
+                    <figure id="Location5"></figure>
                 </div>
             </div>
 
@@ -66,9 +61,7 @@
                 <div class="chart-container">
                     <h3 class="chart-title">4. Populism and government quality</h3>
                     <p>This scatter plot shows the relationship between populism and government effectiveness in OECD countries (2000-2022). A negative correlation emerges with higher populism scores generally associated with lower government effectiveness ratings, particularly above 0.4 on the populism scale.</p>
-                    <center>
-                        <figure id="Location3"></figure>
-                    </center>
+                    <figure id="Location3"></figure>
                 </div>
             </div>
 
@@ -76,9 +69,7 @@
                 <div class="chart-container">
                     <h3 class="chart-title">5. Economic factors</h3>
                     <p>This graph compares GDP per capita growth and populist discourse trends (2000-2022). While GDP shows sharp fluctuations, particularly during the 2008 crisis and 2020 pandemic, populist rhetoric responds with a delay, suggesting economic instability's gradual influence on political discourse.</p>
-                    <center>
-                        <figure id="Location4"></figure>
-                    </center>
+                    <figure id="Location4"></figure>
                 </div>
             </div>
 
@@ -86,18 +77,14 @@
                 <div class="chart-container">
                     <h3 class="chart-title">6. Growth of immigration-related news</h3>
                     <p>This bar chart tracks migration-related news articles (2000-2024). Coverage remained stable around 600-1,200 articles annually until 2012, then rose sharply from 2013, peaking at 3,600 articles in 2018, with fluctuating levels through 2024.</p>
-                    <center>
-                        <figure id="Location6"></figure>
-                    </center>
+                    <figure id="Location6"></figure>
                 </div>
             </div>
             <div class="chart-grid">
                 <div class="chart-container">
                     <h3 class="chart-title">7. Impact of immigration on populism</h3>
                     <p>This scatter plot reveals a strong positive correlation (R²=0.741) between migration news coverage and populism scores (2000-2022). As news articles increase, populism scores rise correspondingly, with GDP levels (shown through colors) indicating this relationship persists across economic development levels.</p>
-                    <center>
-                        <figure id="Location7"></figure>
-                    </center>
+                    <figure id="Location7"></figure>
                 </div>
             </div>
         </div>
@@ -127,6 +114,8 @@
     </main>
 
     <script>
+
+        
         const charts = {
             'Location1': 'project_chart1.json',
             'Location2': 'project_chart8.json',
@@ -137,9 +126,32 @@
             'Location7': 'project_chart9.json'
         };
 
+        const vegaConfig = {
+            actions: false,
+            renderer: 'svg',
+            downloadFileName: 'visualization',
+            tooltip: {
+                theme: 'light'
+            }
+        };
+
         Object.entries(charts).forEach(([location, chart]) => {
             const spec = `https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/${chart}`;
-            vegaEmbed(`#${location}`, spec).catch(console.error);
+            
+            // Load and customize each chart
+            vegaEmbed(`#${location}`, spec, vegaConfig)
+                .then(function(result) {
+                    // Access the Vega view instance
+                    const view = result.view;
+                    
+                    // Enable tooltips with custom options
+                    view.tooltip(new vegaTooltip.Handler({
+                        theme: 'light',
+                        offsetX: 10,
+                        offsetY: 10
+                    }).call);
+                })
+                .catch(console.error);
         });
     </script>
 </body>
