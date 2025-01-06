@@ -112,8 +112,6 @@
     </main>
 
     <script>
-
-        
         const charts = {
             'Location1': 'project_chart1.json',
             'Location2': 'project_chart8.json',
@@ -133,24 +131,36 @@
             }
         };
 
+        // Function to remove tooltip element
+        function removeTooltip() {
+            const tooltip = document.getElementById('vg-tooltip-element');
+            if (tooltip) {
+                tooltip.remove();
+            }
+        }
+
         Object.entries(charts).forEach(([location, chart]) => {
             const spec = `https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/${chart}`;
             
-            // Load and customize each chart
             vegaEmbed(`#${location}`, spec, vegaConfig)
                 .then(function(result) {
-                    // Access the Vega view instance
                     const view = result.view;
                     
-                    // Enable tooltips with custom options
-                    view.tooltip(new vegaTooltip.Handler({
+                    // Configure tooltip with hide event
+                    const tooltipHandler = new vegaTooltip.Handler({
                         theme: 'light',
                         offsetX: 10,
-                        offsetY: 10
-                    }).call);
+                        offsetY: 10,
+                        onHide: removeTooltip
+                    });
+
+                    // Add mouseleave event listener to the chart container
+                    document.querySelector(`#${location}`).addEventListener('mouseleave', removeTooltip);
+                    
+                    view.tooltip(tooltipHandler.call);
                 })
                 .catch(console.error);
-        });
+        }); 
     </script>
 </body>
 </html>
