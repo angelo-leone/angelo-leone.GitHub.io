@@ -26,13 +26,11 @@
     <main>
         <div class="week-section">
             <h2 class="week-title">Aim of the project: Investigating the rise of populism in OECD countries</h2>
-            <p class="week-description">The rise of populism in developed economies represents a significant shift in contemporary political dynamics, warranting careful analysis to understand its implications for democratic governance. As demonstrated in Chart 1, populist discourse in OECD countries has shown a marked upward trajectory since 2013, following a period of relative stability at lower levels. This research project examines this trend through comprehensive data analysis and visualization, focusing on several key dimensions: the geographical patterns of populist movements across OECD nations, the interrelationship between populist tendencies and indicators of government effectiveness, the role of economic factors in populist sentiment, and the influence of immigration patterns and related discourse.<br>
-                Through this analysis, the project aims to provide evidence-based insights to inform policy discussions and contribute to our understanding of how democracies can effectively respond to populist challenges while maintaining institutional stability.</p>
+            <p class="week-description">As shown in Chart 1, populist discourse in OECD countries has shown a marked upward trajectory since 2013, following a period of relative stability at lower levels. This research project examines this trend through comprehensive data analysis and visualization.</p>
         </div>
 
         <div class="week-section">
             <h2 class="week-title">Analysis</h3>
-            <p class="week-description"> Below it's possible to find the charts produced for this project, along with a brief description of each one. </p>
             <div class="chart-grid">
                 <div class="chart-container">
                     <h3 class="chart-title">1. The rise of populism</h3>
@@ -52,7 +50,7 @@
             <div class="chart-grid">
                 <div class="chart-container">
                     <h3 class="chart-title">3. Countries driving populist growth</h3>
-                    <p>This visualization maps changes in populist discourse across OECD countries between first and last measurements. Dark teal shows major increases (notably in the USA and Turkiye), while lighter shades indicate minimal changes.</p>
+                    <p>Dark teal shows major increases (notably in the USA and Turkiye), while lighter shades indicate minimal changes.</p>
                     <figure id="Location5"></figure>
                 </div>
             </div>
@@ -60,7 +58,7 @@
             <div class="chart-grid">
                 <div class="chart-container">
                     <h3 class="chart-title">4. Populism and government quality</h3>
-                    <p>This scatter plot shows the relationship between populism and government effectiveness in OECD countries (2000-2022). A negative correlation emerges with higher populism scores generally associated with lower government effectiveness ratings, particularly above 0.4 on the populism scale.</p>
+                    <p>A negative correlation emerges with higher populism scores generally associated with lower government effectiveness ratings, particularly above 0.4 on the populism scale.</p>
                     <figure id="Location3"></figure>
                 </div>
             </div>
@@ -68,7 +66,7 @@
             <div class="chart-grid">
                 <div class="chart-container">
                     <h3 class="chart-title">5. Economic factors</h3>
-                    <p>This graph compares GDP per capita growth and populist discourse trends (2000-2022). While GDP shows sharp fluctuations, particularly during the 2008 crisis and 2020 pandemic, populist rhetoric responds with a delay, suggesting economic instability's gradual influence on political discourse.</p>
+                    <p>While GDP shows sharp fluctuations, particularly during the 2008 crisis and 2020 pandemic, populist rhetoric responds with a delay, suggesting economic instability's gradual influence on political discourse.</p>
                     <figure id="Location4"></figure>
                 </div>
             </div>
@@ -76,14 +74,14 @@
             <div class="chart-grid">
                 <div class="chart-container">
                     <h3 class="chart-title">6. Growth of immigration-related news</h3>
-                    <p>This bar chart tracks migration-related news articles (2000-2024). Coverage remained stable around 600-1,200 articles annually until 2012, then rose sharply from 2013, peaking at 3,600 articles in 2018, with fluctuating levels through 2024.</p>
+                    <p>Coverage remained stable around 600-1,200 articles annually until 2012, then rose sharply from 2013, peaking at 3,600 articles in 2018, with fluctuating levels through 2024.</p>
                     <figure id="Location6"></figure>
                 </div>
             </div>
             <div class="chart-grid">
                 <div class="chart-container">
                     <h3 class="chart-title">7. Impact of immigration on populism</h3>
-                    <p>This scatter plot reveals a strong positive correlation (R²=0.741) between migration news coverage and populism scores (2000-2022). As news articles increase, populism scores rise correspondingly, with GDP levels (shown through colors) indicating this relationship persists across economic development levels.</p>
+                    <p>This scatter plot reveals a strong positive correlation (R²=0.741) between migration news coverage and populism scores (2000-2022). As news articles increase, populism scores rise correspondingly, with GDP levels (shown through colours) indicating this relationship persists across economic development levels.</p>
                     <figure id="Location7"></figure>
                 </div>
             </div>
@@ -92,23 +90,23 @@
             <h2 class="week-title">Data</h3>
             <p>The analysis draws on four primary data sources to investigate populism in OECD countries from 2000 to 2022. The foundation of the populism measurements comes from <a href="https://populism.byu.edu/0000017d-bf5d-d270-a1fd-ff5fcf750001/global-populism-database-paper-pdf">Hawkins et al. (2019) Global Populism Database</a> (last updated in 2022), which provides ratings of government leaders' speeches on a scale from 0 (not populist) to 2 (very populist). This dataset focuses specifically on heads of government rather than political parties or other figures, with varying temporal coverage across countries. <a href="https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/gpd_v2_20220427.csv"> Download data. </a> <br>
                 Government effectiveness metrics were sourced from the <a href="https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/API_NY.GDP.PCAP.KD.ZG_DS2_en_csv_v2_159.csv.csv">World Bank's World Development Indicators</a> database. <a href="https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/OECD_GDP_per_capita_growth.csv">GDP Per Capita growth data</a> across OECD countries was also sourced from the <a href="https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?end=2022&locations=OE&start=1995">World Bank</a>. <a href="https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/2d540c87-490f-487f-a55f-ad766f804aa1_Data.csv">Download Government Effectiveness data.</a><br>
-                For media coverage analysis, data was collected using ProQuest TDM to extract news articles from 2000 to 2022 relating to migration topics, including terms like "irregular migrations" and "illegal immigration."<a href="https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/migrants_news.csv">Download data.</a> <br>
+                For media coverage analysis, data was collected using ProQuest TDM to extract news articles from 2000 to 2022 relating to migration topics, including terms like "irregular migrations" and "illegal immigration".<a href="https://raw.githubusercontent.com/angelo-leone/angelo-leone.GitHub.io/refs/heads/main/migrants_news.csv"> Download data.</a> <br>
                 All datasets are publicly accessible via GitHub, enabling replication of the analysis. The data processing and visualization were performed using Python, with code available in the project repository for transparency and reproducibility.</br> 
         </div>
         <div class="week-section">
             <h2 class="week-title">Challenges in data cleaning and analysis</h3>
             <p>The analysis presented several technical challenges across different visualization stages. For the time series analysis of populism (Chart 1), the primary difficulty lay in standardizing the populism database, which contained multiple speeches per year without specific dates and was organized by leaders rather than countries. This was resolved using pandas DataFrame manipulations to aggregate scores at the country-year level. <br>                
                 The geographical visualizations (Charts 2 and 3) required careful attention to data standardization, particularly in matching ISO3 codes with the Vega topojson file. Additional challenges with Vega's slider functionality were overcome by adapting solutions from previous mapping implementations. <br>                
-                The correlation analyses (Charts 4 and 5) involved merging multiple datasets while maintaining data integrity. A particular challenge arose with y-axis labeling in Vega, which was addressed through alternative visual cues and enhanced tooltips. The migration news analysis (Chart 6) required precise querying in ProQuest TDM to ensure data relevance and reliability. <br>                
+                The correlation analyses (Charts 4 and 5) involved merging multiple datasets while maintaining data integrity. A particular challenge arose with y-axis labelling in Vega, which was addressed through alternative visual cues and enhanced tooltips. The migration news analysis (Chart 6) required precise querying in ProQuest TDM to ensure data relevance and reliability. <br>                
                 The final visualization (Chart 7) presented the challenge of effectively displaying three-dimensional relationships. This was resolved by using year as the grouping variable for populism scores and migration news counts, while incorporating GDP data through color-coding based on log values. <br>                
                 All challenges were overcome through a combination of pandas data manipulation, careful database querying, and creative visualization techniques in Vega-Lite.</p>
         </div>
         <div class="week-section">
             <h2 class="week-title">Conclusion</h3>
-            <p>Our comprehensive analysis of populism in OECD countries reveals complex relationships between political discourse, economic factors, and media coverage from 2000 to 2022. The analysis shows a significant upward trend in populist rhetoric starting from 2013 (Chart 1), with varying intensities across different geographical regions (Charts 2 and 3).<br>
-                The relationship between populism and governance suggests that higher levels of populist discourse correlate with lower government effectiveness scores (Chart 4). Economic analysis indicates a nuanced temporal relationship between GDP growth and populist trends. While annual GDP growth shows considerable volatility, populist discourse appears to respond to economic challenges with a delay, particularly evident following the 2008 financial crisis and during the pandemic period (Chart 5). <br>                
-                Media coverage analysis reveals a notable correlation with populist discourse. The substantial increase in migration-related news articles (Chart 6) shows a strong statistical relationship with rising populist rhetoric (Chart 7, R²=0.741), while controlling for GDP. <br>                
-                These findings suggest interconnected relationships between economic conditions, media coverage, and populist discourse. The insights provide valuable context for understanding contemporary political dynamics in OECD countries, though further research would be needed to establish causal relationships. This understanding could inform approaches to maintaining effective governance while addressing societal concerns in a balanced manner.</p>
+            <p>Our analysis of populism in OECD countries reveals complex relationships between political discourse, economic factors, and media coverage from 2000 to 2022. The analysis shows a significant upward trend in populist rhetoric starting from 2013 (Chart 1), with varying intensities across different geographical regions (Charts 2 and 3).<br>
+                The relationship between populism and governance suggests that higher levels of populist discourse correlate with lower government effectiveness scores (Chart 4). Populist discourse appears to respond to economic challenges with a delay, particularly evident following the 2008 financial crisis and during the pandemic period (Chart 5). <br>                
+                The substantial increase in migration-related news articles (Chart 6) shows a relationship with rising populist rhetoric (Chart 7, R²=0.741), while controlling for GDP. <br>                
+                The insights provide valuable context for understanding contemporary political dynamics in OECD countries, though further research would be needed to establish causal relationships.</p>
             </div>
         </div>
     </main>
